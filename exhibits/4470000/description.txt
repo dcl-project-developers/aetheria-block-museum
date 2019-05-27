@@ -1,0 +1,6 @@
+Description: Soon after the Byzantium fork, Devcon-3 launched in November 1-4 2017, in sunny Cancun. Growth of the convention had previously exceeded capacities, so it was the first time the conference expanded into multiple rooms, thereby enabling 40% more sessions, a press room with a live feed, meeting rooms, booths, and “the works.” The whopping 2,000 attendees were provided segregated bandwidth for livestreaming at the event and they shared photos and stories of their meetups as well as excursions amidst the waters of the Caribbean outside of the venue. While livestreaming was highly encouraged, Ming Chan - Devcon MC - noted that the energy at Devcon-3 was not tangible unless physically present. Overall, the convention was finally gaining notoriety as something of a “Comicon” for the world of crypto.
+
+Source: https://blog.ethereum.org/2017/11/16/devcon3/
+https://www.ethnews.com/devcon3
+https://www.blockchainlabs.asia/news/devcon-3-ethereum-empowered-blockchain-development/
+https://applicature.com/blog/blockchain-conferences-2017-2018-ethereum-devcon3

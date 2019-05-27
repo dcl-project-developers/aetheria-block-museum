@@ -1,0 +1,6 @@
+Description: On October 16, 2017, Metropolis - an Ethereum development roadmap - began the first of its two stages with the Byzantium fork. Activated at block 4,370,000, Byzantium ushered in major improvements to the Ethereum blockchain including the introduction of STATICCALL (EIP-214); a “status” field in transaction receipts for easy verification by light clients (EIP-658) and a fix to the uncle rewards (EIP-100). Other significant changes with Byzantium are the addition of new opcodes and precompiled contracts to make it easier for developers to experiment with zkSNARKs (zkSNARKs enable clients to provide proof to a verifier that they possess a secret without revealing said secret to the verifier).
+
+Additionally, Byzantium diffused the difficulty timebomb for a first time, marking the end of the first Ethereum Ice Age. The second Ice Age would last until the Metropolis Constantinople fork, nearly 1.5 years later.
+
+Source: https://www.coinmama.com/guide/history-of-ethereum
+https://btcmanager.com/byzantine-first-part-of-ethereums-planned-hard-fork-activates-oct-17/

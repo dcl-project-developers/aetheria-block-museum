@@ -1,0 +1,13 @@
+Description: On July 18th 2017, at block 4,041,169, the account at multisigExploitHacker.aetheriablockmuseum.eth called the initWallet method of the Parity Multisign wallet of the Edgeless team (see edgelessMultisig.aetheriablockmuseum.eth). This method was meant to only be called at contract creation, but it was not annotated properly as such (say with an internal modifier). In fact, the default visibility was public, which meant that anyone was free to call the initWallet on *any* multisig wallets deployed after Version 1.5 of their wallet (approximately from December 2016 through July 2017).
+
+One of the functions of the initWallet was to assign the owner of the wallet to the sender of the transaction (the hacker in this case). Ten blocks later, the wallet was emptied. Roughly 10 hours later, at block 4,043,784, the hacker repeated the process on the Swarm City and Aethernity wallets, robbing these teams of about 153,000 ether, which could have been used to further their development. There were plenty of vulnerable wallets which were not drained by the hacker. The nature of the bug was kept as secret as possible while the White Hat Group (the same group that stepped in during theDAO to rescue funds) drained the vulnerable wallets of all ether and ERC-20 to a safe location. These funds, around 377,000 ether, were later distributed to the rightful owners by the White Hat Group.
+
+
+A stronger smart contract audit process may have avoided this issue. Similarly, it might have been safer to design Solidity so that the default visibility of methods isn’t public (or that it must be explicitly specified in all cases). In the end, it was also the community and the users' fault for not catching such a simple (and in hindsight extremely obvious) flaw.
+
+The last transfer out of that account happened one day after the heist took place and, as of early 2019, there is still a balance of roughly 83,000 ETH in the hacker's account.
+
+Source: https://etherscan.io/address/0xb3764761e297d6f121e79c32a65829cd1ddb4d32
+https://etherscan.io/tx/0xff261a49c61861884d0509dac46ed67577a7d48cb73c2f51f149c0bf96b29660
+https://etherscan.io/txs?a=0xb3764761e297d6f121e79c32a65829cd1ddb4d32
+https://www.ccn.com/hackers-seize-32-million-in-parity-wallet-breach

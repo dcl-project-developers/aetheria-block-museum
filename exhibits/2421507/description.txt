@@ -1,0 +1,18 @@
+Description: While theDAO hack was probably mostly financially motivated, the EXTCODESIZE DoS attack had no obvious financial motives (apart from possibly gains from shorting ether, although this would not have paid off significantly since price only shortly dropped before rallying a few dollars above). So why would anyone spend time identifying and exploiting this vulnerability in geth?
+
+One of the narratives from Ethereum detractors around 2016 was that the Ethereum Virtual Machine was too flexible and powerful, and thus could not be properly secured.  A much stricter set of instructions, such as the Bitcoin scripting language, would actually be more useful to developers since they would not need to worry about a large attack surface. The motive for the DoS attack in September 2016 could very well have been political; to prove that Ethereum was not as secure of a platform as some of its competitors. The same motive might explain the following DoS attack which took place less than a month later: the Suicide Bomb attacks (also sometimes referred as Empty Accounts attack).
+
+The attack again exploited another mispriced instruction, in this case, the cost of creating new accounts via a SUICIDE call. This was an oversight in the gas pricing design. In fact, creating a new account via a CALL instruction (the typical way) was properly priced at about 25,000 gas. But doing so via SUICIDE cost on average only about 95 gas.
+
+
+There were two attacker contracts (suicideBomber1.aetheriablockmuseum.eth and suicideBomber2.aetheriablockmuseum.eth) deployed at blocks 2,421,490 and 2,423,558. The first symptoms were reported at block 2,421,507 when the first attacker contract published a single transaction which lead to 8561 internal transactions. This single transaction only cost the attacker 770,000 gas to create over 8000 accounts. If the same price had been used as the one to create an account the typical way, fewer than 40 empty accounts would have been created in that transaction.  In other words, the attacker found a loophole in the pricing structure and abused it to disrupt the network to a maximum.
+
+
+The attackers used a very high gas price for the fee market of the time (20 gwei initially) to ensure their 40,000+ transactions were prioritized and included by miners until the attackers stopped publishing transactions at block 2,463,130. They managed to create about 20M empty accounts which cluttered the state tree with around 30M (due to the construction of the tree). Since the state root is calculated from all nodes in the tree and since the state root is needed to mine and validate blocks, this attack had a seriously negative impact on the network. These empty accounts were later cleared from the state tree entirely and the number of accounts went down to around 770,000.
+
+
+At a price of about $12 per ether, the attackers must have spent less than $10,000 to cause significant damage to the Ethereum network, thus somewhat validating the claim from Ethereum detractors. However, since that event there has not been another DoS attack on Ethereum.
+
+Source: https://blog.ethereum.org/2016/11/18/hard-fork-no-4-spurious-dragon/
+https://ethereum.stackexchange.com/questions/11413/during-which-blocks-did-the-ddos-attack-create-millions-of-empty-accounts
+https://ethereum.stackexchange.com/questions/9883/why-is-my-node-synchronization-stuck-extremely-slow-at-block-2-306-843

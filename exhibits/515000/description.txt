@@ -1,0 +1,12 @@
+Description: In November 9-13, 2015 - a little over a hundred days after the Ethereum network launched - the first Ethereum Development Conference made its London debut. Begging the question of how the Ethereum platform would push toward decentralized revolution? About 300 attendees watched eagerly as Dr. Gavin Wood - Ethereum co-founder - explained the key concepts as part of his presentation: “Ethereum for dummies.”
+
+There had been a DevCon-0 November of the previous year in Berlin. But this was before the mainnet launched, so the event does not have its own entry in this museum.
+
+
+The developers’ conference - which focused mainly on dapp development - aimed to educate and inspire the masses as to the robust future of Ethereum and to highlight its overwhelming social implications.
+
+
+Amongst speakers from the Ethereum foundation and fellow developers, attendees were therefore in a position to better understand the promising direction of the blockchain-based distributed computing platform. The Core development team spoke about the potential of dapps and the ability to run new business models; whilst also acknowledging technical issues like scalability. With live communication between the Core team and attendees, Devcon1 became the first open forum for official discussion of the future of Ethereum.
+
+Source: https://blog.ethereum.org/2015/09/24/devcon-is-back/
+https://applicature.com/blog/blockchain-conferences-2017-2018-ethereum-devcon3

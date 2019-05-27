@@ -1,0 +1,10 @@
+Description: The recursive call bug allowed the attacker to drain theDAO to the tune of 4 million Ether (or roughly $150M at the time). The community put forward the idea of refunding theDAO contributors via a hard fork — to the dismay of a minority within the community. From their point of view, Ethereum was initially sold as an immutable blockchain; forking to execute an irregular state change because of a badly written contract broke this property. However, there was a larger portion of the community which thought forking was justified and the correct course of action for the blockchain. Given the transition to proof-of-stake, leaving about 15% of the Ether supply in the hands of a malicious actor would put the network’s future at risk. There were also concerns that inaction from the community might lead to actions by regulatory agencies.
+
+In order to gather the community’s opinion, a dapp named CarbonVote was created to let people voice their stance on whether a hard fork should occur or not occur, whereby 1 ETH equated to 1 vote. The pro-fork vote tallied 3.96 million votes, while the “code is law” camp gathered 0.57 million votes. In light of this vote, and of the general pro-fork stance by community members, the client teams implemented the hard fork changes and the network upgrade at block 1,920,000. A small community decided to not upgrade their nodes, to fork the code and to mine a new network called Ethereum Classic. Anyone with a balance on the Ethereum network would, at the fork block, automatically have their balance on the Ethereum Classic network too.
+
+The fork added a new block processing rule: at the fork block, all balances in theDAO and child DAOs would be zeroed out and refunds would be available to contributors in a newly written refund contract.
+
+Source:  https://coincodex.com/article/50/the-dao-hack-what-happened-and-what-followed
+https://ethereum.stackexchange.com/questions/7832/give-a-summary-of-the-fork-state-changes-in-block-1920000
+https://en.wikipedia.org/wiki/The_DAO_(organization)#History
+http://v1.carbonvote.com/

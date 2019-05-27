@@ -1,0 +1,10 @@
+Description: The Maker DAI system is the first decentralized stablecoin system to be released on the Ethereum chain. It seeks to peg the DAI token to 1 USD by the elegant use of economic incentives. A user deposits collateral (only ether for now, multi-collateral is on the roadmap) to the Maker DAI contract. By doing so, they are allowed to mint brand-new DAI and use it as wished (leverage eth purchase, refinancing of other debts, loan DAI on DeFI applications).
+
+As long as the collateral-to-debt ratio stays healthy, such as when the value of the collateral increase, the system is safe since the collateral (owned by the smart contract at that point) could in theory be sold to reimburse the debt. If the collateral decreases in price (such as during the great bear market of 2018), the debt owner must either add collateral to their debt position (by depositing more eth for instance), or reimburse the DAI that was loaned (which is only possible if they have not spent the DAI). Failure to do so put them at risk of liquidation when the collateral-to-debt ratio falls below a certain parameter of the system (150% for now). When a debt position is below that level, anyone can purchase the debt at the given price and earn the liquidation penalty fee paid by the debt owner (who gets to keep the DAI loaned, but loses the collateral). This mechanism ensures that the system is properly collateralized at all time.
+
+The system is composed of multiple contracts which were deployed on December 17 and December 18th of 2017 after years of development and multiple rounds of audits. The actual DAI token contract (dai.aetheriablockmuseum.eth) itself was deployed at block 4752008.
+
+Source: https://twitter.com/nanexcool/status/1074655236625707008
+https://etherscan.io/tx/0x91b318fd3498c14a1495357d6a4e895fd29c3d915ee695a6fbc8ef72908a1aa8
+https://etherscan.io/address/0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359
+https://coincentral.com/maker-dai-beginner-guide/

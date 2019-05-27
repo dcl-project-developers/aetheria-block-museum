@@ -1,0 +1,4 @@
+Description: Between October 30th and November 2nd, 2018, Devcon-4 took place in Prague. With 3,000 attendees, Devcon-4 was the largest crypto convention to date. Major topics involved: scalability, security, privacy, developer experience, society and design. Updates were included from:  from the Swarm team, the STARKs workshop, optimization of smart contracts, the Raiden Network and the state of Plasma. Perhaps the most vital convention yet, Devcon-4 focused on scaling the platform so that it would be ready for mainstream adoption.
+
+Source: https://blog.ethereum.org/2018/05/11/devcon4-announcement/
+http://www.weekinethereum.com/post/179786646738/november-3-2018

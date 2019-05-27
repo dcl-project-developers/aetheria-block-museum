@@ -1,0 +1,9 @@
+Description: The Genesis block is one-of-a-kind: it contains 8893 transactions but has used no gas, it was created 15 seconds before the Ethereum Frontier at block #1, but it has no miner. And More importantly, its nonce is 0x42!
+The Genesis block was shipped with the first clients and was designed to initialize the account of each participants of the Ethereum presale. The presale ran for 42 days starting in July 2014, the initial price was fixed to 2000 ETH/BTC ($0.311/ETH at the time) for two weeks. After that period, the price would decrease linearly until it reached 1337 ETH/BTC. The presale had been delayed by several months so the team could navigate the legal processes and build a secure presale website.
+The presale website would generate an encrypted wallet.json file, all client-side, and associate it with a Bitcoin address the participants had to contribute to. That wallet contained the private key needed to access the accounts created during the genesis block (assuming you had not forgotten your password!).
+In total, some over 60M ETH were sold at the presale for roughly 61,150 BTC worth over $18M at the time.
+
+Source: https://blog.ethereum.org/2014/07/22/launching-the-ether-sale/
+http://ethdocs.org/en/latest/introduction/history-of-ethereum.html
+https://cointelegraph.com/news/ethereum-raises-3700-btc-in-first-12-hours-of-ether-presale
+https://blog.ethereum.org/2014/07/23/ether-purchase-troubleshooting/

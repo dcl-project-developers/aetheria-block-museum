@@ -1,0 +1,7 @@
+Description:  The DoS attacks of Fall 2016 took a serious toll on the immediate network health of the Ethereum blockchain; with a large number of nodes not being able to sync, hard forks had to be quickly planned and implemented by client teams in order to restore operations. The first fork, named Tangerine Whistle, fixed several underpriced IO-heavy operations, as specified in EIP-150. This non-contentious fork occurred on October 18th 2016, approximately one month after the first DoS attack took place.
+
+
+
+Source: https://ethereum.stackexchange.com/questions/9883/why-is-my-node-synchronization-stuck-extremely-slow-at-block-2-306-843
+https://www.reddit.com/r/ethereum/comments/5z0ezg/please_confirm_what_the_hard_forks_of_ethereum/
+https://blog.ethereum.org/2016/10/18/faq-upcoming-ethereum-hard-fork/

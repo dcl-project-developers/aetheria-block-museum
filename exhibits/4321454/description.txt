@@ -1,0 +1,3 @@
+Description: Then came the Terraform, the initial generation of LAND within Decentraland in September 2017. It was handled by terraform.aetheriablockmuseum.eth, created at block 4,321,454. Initially the cutoff date was December 15, 2018 but in the end people were able to lock more MANA into the Terraform contract while the auction was live, thus creating 70,399 parcels of LAND. A whopping 161,483,050 MANA (roughly $10m) was spent in what became the largest ever virtual land sale.
+
+Source: https://etherscan.io/address/0xcca95e580bbbd04851ebfb85f77fd46c9b91f11c

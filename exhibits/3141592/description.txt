@@ -1,0 +1,1 @@
+Description: The last Pi block was mined on February 7th 2017, with a total of 7 digits, it occurred almost 1.5 years after the previous Pi block of 6 digits (#314,159). Assuming an average block time of 10 seconds, the next Pi block (#31,415,926) should happen somewhere around 2026.

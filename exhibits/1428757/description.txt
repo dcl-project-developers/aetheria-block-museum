@@ -1,0 +1,9 @@
+Description: The infamous theDAO contract was deployed at theDAO.aetheriablockmuseum.eth on April 30th 2016 and stayed unharmed for about 1.5 months until attackers started draining the funds. The contract itself was meant to handle multiple functions of theDAO including running the presale and the governance functionality (DAOInterface) such as newProposal(). The contract also implemented the ERC-20 interface which had first been proposed in November of the previous year.
+
+The presale started as soon as the contract was deployed and it was handled by calling the default function (also known as fallback function). This function is called when a transaction is sent to an address with nothing in its data field (interaction with smart contract typically happens with that field).  For 28 days, participants sent Ether to that address, and received theDAO tokens in exchange. By the end of the sale, about 14% of the total ETH supply was held in custody by that contract. By the end of May, a paper was published to highlight vulnerabilities; meanwhile 3 weeks later, the ether raised from the presale started being drained away.
+
+
+Source: https://etherscan.io/address/0xbb9bc244d798123fde783fcc1c72d3bb8c189413
+https://etherscan.io/tx/0xe9ebfecc2fa10100db51a4408d18193b3ac504584b51a4e55bdef1318f0a30f9
+https://en.wikipedia.org/wiki/The_DAO_(organization)
+https://en.wikipedia.org/wiki/ERC-20

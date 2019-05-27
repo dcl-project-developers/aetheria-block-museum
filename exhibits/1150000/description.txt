@@ -1,0 +1,7 @@
+Description: The ‘Homestead’ update, released on Pi Day (March 14th, 2016) at block 1,150,000, is widely considered the first “stable” Ethereum release. Initially planned to deploy a month after Frontier, it actually took the developers 7.5 months to complete the extensive project.
+Ethereum forks include a number of Ethereum Improvement Proposals (EIP). Homestead implemented 3 EIPs (EIP-2, 7 and 8). These EIPs cover a broad number of improvements, including an increase to the cost of contract creation to address a protocol bug which allowed value transfer at 11664 gas, the introduction of the DELEGATECALL opcode which enabled safer smart contract design pattern such as proxy contracts, and changes to the difficulty calculation, in hope of restoring an average block time of 15 seconds (which had recently averaged about 1 block per 13 seconds).
+
+Source: https://www.coinmama.com/guide/history-of-ethereum
+https://www.cryptocompare.com/coins/guides/the-ethereum-releases-of-frontier-homestead-metropolis-and-serenity/
+http://ethdocs.org/en/latest/introduction/the-homestead-release.html
+https://blog.cotten.io/ethereums-eip-2-4-15-second-block-target-98d4c11017e1

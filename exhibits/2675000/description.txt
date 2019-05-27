@@ -1,0 +1,8 @@
+Description: On November 22nd, 2016, the Ethereum network underwent the “Spurious Dragon” hard fork at block 2,675,000. It was the second hard fork in response to the DoS attacks. In particular, the Suicide bomb attacks had created nearly 20,000,000 empty accounts which cluttered the state trie (where information on account balances and storage is kept). The purpose of this second hard fork was to allow these empty accounts to be deleted and ignored by clients.
+Spurious Dragon implemented EIP-158. In particular, any account with nonce of 0, balance of 0, no code or storage would be deleted whenever that account would be “touched” (such as when a no-value transaction would be sent to it). Over the course of the week following the fork, the 20 million empty accounts were all touched this way, which allowed the state trie to reduce significantly in size.
+On November 29th, 2016, Vitalik announced on Twitter “State clearing 100% complete.”
+
+Source: https://blog.ethereum.org/2016/11/18/hard-fork-no-4-spurious-dragon/
+https://ethereum.stackexchange.com/questions/11413/during-which-blocks-did-the-ddos-attack-create-millions-of-empty-accounts
+https://ethereum.stackexchange.com/questions/9883/why-is-my-node-synchronization-stuck-extremely-slow-at-block-2-306-843
+https://twitter.com/vitalikbuterin/status/803858020254027776?lang=de

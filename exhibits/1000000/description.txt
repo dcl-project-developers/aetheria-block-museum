@@ -1,0 +1,4 @@
+Description: The block with the number one million was mined on February 13 2016, nearly 200 days after the mainnet came to life. This period amounts to roughly 17.1 million seconds, or approximately one new block every 17 seconds on average. This metric, known as the average block time, has varied widely over the years, sometimes being significantly higher than the 15 seconds target. A key influencer of block time is the difficulty bomb. This mechanism increases the difficulty exponentially after some time, forcing the network and the community to upgrade to a new version through a hard fork to reset the bomb.
+
+
+Source: https://www.investopedia.com/news/what-ethereums-difficulty-bomb/

@@ -1,0 +1,4 @@
+Description: The launch of CryptoKitties - a game where you breed and collect digital cats that live on the blockchain - led the way for the future of complex non-fungible tokens (NFTs). The token contract, at cryptokitties.aetheriablockmuseum.eth, was deployed on block 4,605,167, however, Kitty #1 was actually minted 179 blocks later at block 4,605,346. While CryptoKitties was not the first NFT to be deployed on the blockchain, it quickly became the most popular application by far. Eventually it clogged the Ethereum network, with infrastructure such as Infura.io struggling to keep up with Ethereum transactions. CryptoKitties remains one of the most popular NFTs to date, with over 3.5 million transactions as of quarter one 2019 and several hundred on-chain users each day.
+
+Source: https://etherscan.io/tx/0x9e8f42799dffe9f5700e1f871a20a9483e1c84db73c382c31a4412b9a2f83b2b
+https://etherscan.io/tx/0x691f348ef11e9ef95d540a2da2c5f38e36072619aa44db0827e1b8a276f120f4

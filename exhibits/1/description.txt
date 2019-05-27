@@ -1,0 +1,14 @@
+Description: The beginning: a catalyst that would inspire some of the greatest technological advances of the modern era. A pioneering project, as it were, Ethereum was considered by many as a key element of building the next iteration of the web. It would allow anyone access to a new type of public utility: a global virtual machine which could be used by anyone to interact with other people and with digital money, all simply by writing code defining the nature of the interactions. The accuracy of the code execution would be guaranteed similarly to how transactions are verified with Bitcoin.  This would enable new ways for people to organize and would remove the need to trust other parties in many cases. This block is where it all began.
+
+
+The development of Ethereum started with a proof-of-concept series completing 9 cycles, with the 10th iteration resulting in the Olympic testnet in May 2015. Developers were incentivized via prizes to: “test the limits of the Ethereum blockchain during the pre-release period, spamming the network with transactions and doing crazy things with the state, so that we can see how the network holds up under high levels of load.” There was even a 5000 ETH grand prize for whoever could create a fork between the two main clients, the go and the C++ clients.
+
+
+After a few months of testing, the first mainnet, Frontier, was publicly released on July 30th 2015, when the first clients consented to the network via the genesis block. In the early days it provided a decentralized, distributed platform for application development — but unfortunately very few development tools existed. New features and improvements to the friendliness of the platform would be implemented throughout the following years.
+
+The early users - who participated in the Ethereum presale, and, above all, performed Ethereum mining, building, and testing of smart contracts - were utterly passionate about the technology. Ethereum aimed to answer the question of “In what way can I program my cryptocurrency?” thus introducing a brave new world of discovery and innovation.
+
+Source: https://blog.ethereum.org/2015/05/09/olympic-frontier-pre-release/
+https://ethereum.gitbooks.io/frontier-guide/content/frontier.html
+http://ethdocs.org/en/latest/introduction/history-of-ethereum.html
+https://www.coinmama.com/guide/history-of-ethereum

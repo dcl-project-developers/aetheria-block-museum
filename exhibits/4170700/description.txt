@@ -1,0 +1,14 @@
+Description:  Decentraland, the Virtual Reality (VR) world that you are currently visiting, had a first working version called the Bronze Age. From the whitepaper:
+“In late 2016, the team started developing the Bronze Age, a 3D virtual world divided
+into land parcels. The owner of each parcel was able to associate it with a hash
+reference to a file, using a modified Bitcoin blockchain. From this reference, users
+exploring the virtual world could use a Distributed Hash Table (DHT) and BitTorrent to
+download the file containing the parcel’s content, which defines the models and
+textures to be displayed at that location.”
+
+In other words, it was now possible to “own” VR land and be in control of what’s displayed on it without the need for a 3rd party organization. The team realized that the Ethereum blockchain was a better fit for ownership tracking since it was easier to program than Bitcoin; as well as enabling more flexible control mechanisms such as maintaining operators who can control what occurs on the VR land without being able to transfer or sell the land. Another advantage of building on Ethereum was the possibility of engaging a community and raising funds by running a token sale. A local currency would be used within Decentraland, the MANA token. This in-game currency would also be used to place bids on LAND parcels in an upcoming VR land sale.
+The MANA sale (contract at MANATokensale.aetheriablockmuseum.eth) took place in the middle of the 2017 ICO frenzy. It was meant to occur between blocks 4,170,700 and 4,202,097 but mostly sold out in 3 blocks. By block 4,170,702, the majority of the available MANA had been purchased and only dust was left to claim. The sale ended at block 4,170,967 when the entire supply had been purchased. Like other popular token sales around that time, many community members were not able to participate in the sale. Their only option left if they wanted to participate in the land auction, called the Terraform, was to purchase MANA on a secondary market where the price was higher than during the initial sale.
+
+
+Source: https://etherscan.io/txsInternal?a=0xa66d83716c7cfe425b44d0f7ef92de263468fb3d
+https://etherscan.io/address/0xa66d83716c7cfe425b44d0f7ef92de263468fb3d#readContract

@@ -1,0 +1,14 @@
+Description: On September 18 2016, one day before the opening of Devcon2 and whilst many core developers were in the air on their way to Shanghai, the first Denial-of-service (DoS) attack on the Ethereum chain began. Many users began reporting that their geth node could not sync past block 2283415. A first security alert from Jeffrey Wilcke identified that a transaction at block 2283416 was causing out-of-memory errors with geth. A second security alert four days later read as follows:
+
+“URGENT ALL MINERS: The network is under attack. The attack is a computational DDoS, ie. miners and nodes need to spend a very long time processing some blocks. This is due to the EXTCODESIZE opcode, which has a fairly low gasprice but which requires nodes to read state information from disk; the attack transactions are calling this opcode roughly 50,000 times per block.”
+
+
+The account at EXTCODESIZEAttacker.aetheriablockmuseum.eth created a malicious contract (see EXTCODESIZEMaliciousContract.aetheriablockmuseum.eth) to repeatedly execute that poorly priced opcode. While the attack did not cause a consensus failure between clients, it did effectively halt all geth nodes for a long period of time. Luckily, the philosophy of “one specification/multiple client implementations” which differentiates Ethereum from its predecessor Bitcoin saved the day; the Parity client was not impacted by the DoS attack and effectively saved the network from grinding to a halt.
+
+
+Source:
+https://ethereum.stackexchange.com/questions/8731/synch-stuck-at-block-2283419
+https://medium.com/@CryptoandSurf/ethereum-transaction-spam-hash-rate-attack-666b0b87c62a
+https://blog.ethereum.org/2016/09/22/ethereum-network-currently-undergoing-dos-attack/
+https://blog.ethereum.org/2016/09/18/security-alert-geth-nodes-crash-due-memory-bug/
+https://github.com/bokkypoobah/EthereumNetworkAttackData

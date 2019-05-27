@@ -1,0 +1,4 @@
+Description: Devcon-2 launched on September 19 in China in the middle of a DoS attack. Settled soon after theDAO hard fork, Devcon-2 took exhausted development teams and placed them back in the spotlight. The network was under attack – the devs had to identify the issue, evaluate the different options and decide on the best course of action- all while seamlessly running their booth. Much of the 700 attendees’ conversations at the time, which were previously optimistic and curious during Devcon-1, were shrouded in the dramas of the DAO fork, the split, and the DoS attack. However, attendants were met with the positivity of the Foundation which urged developers to engage in the tools and technologies of the early Ethereum platform - and ultimately, the show went on without a hitch.
+
+Source: https://blog.ethereum.org/2016/07/08/devcon2-site-now-live
+https://applicature.com/blog/blockchain-conferences-2017-2018-ethereum-devcon3
