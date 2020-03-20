@@ -1,26 +1,29 @@
 fileFormatVersion: 2
-guid: 9567782ba72f0a44c82043f7d37b46cb
+guid: 637de6e0379f4434f927116eac15d148
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: //RootNode
-    100002: Museum_Hex_Base_Collider
-    100004: Museum_Hex_Base_01_Collider
-    400000: //RootNode
-    400002: Museum_Hex_Base_Collider
-    400004: Museum_Hex_Base_01_Collider
-    2100000: Walled
-    2100002: Tiled
-    2300000: //RootNode
-    2300002: Museum_Hex_Base_Collider
-    2300004: Museum_Hex_Base_01_Collider
-    3300000: //RootNode
-    3300002: Museum_Hex_Base_Collider
-    3300004: Museum_Hex_Base_01_Collider
-    4300000: Museum_Hex_Base
-    4300002: Museum_Hex_Base_Collider
-    4300004: Museum_Hex_Base_01
-    4300006: Museum_Hex_Base_01_Collider
+    100000: Museum_Hex_Floor_Piece_a
+    100002: //RootNode
+    100004: Museum_Hex_Floor_Piece_b
+    100006: Museum_Hex_Floor_Piece_Collider
+    400000: Museum_Hex_Floor_Piece_a
+    400002: //RootNode
+    400004: Museum_Hex_Floor_Piece_b
+    400006: Museum_Hex_Floor_Piece_Collider
+    2100000: phong1
+    2100002: phong4
+    2100004: phong3
+    2100006: Walled
+    2300000: Museum_Hex_Floor_Piece_a
+    2300002: Museum_Hex_Floor_Piece_b
+    2300004: Museum_Hex_Floor_Piece_Collider
+    3300000: Museum_Hex_Floor_Piece_a
+    3300002: Museum_Hex_Floor_Piece_b
+    3300004: Museum_Hex_Floor_Piece_Collider
+    4300000: Museum_Hex_Floor_Piece_a
+    4300002: Museum_Hex_Floor_Piece_Collider
+    4300004: Museum_Hex_Floor_Piece_b
   externalObjects: {}
   materials:
     importMaterials: 0

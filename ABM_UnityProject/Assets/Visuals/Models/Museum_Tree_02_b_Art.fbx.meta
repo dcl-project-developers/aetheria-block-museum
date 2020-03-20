@@ -1,40 +1,15 @@
 fileFormatVersion: 2
-guid: 07cee14a9b43ead43804b1eebb52ea8e
+guid: 289d713fc7a2811488b0a5cce7948b5f
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
-    100002: pCylinder2
-    100004: pCylinder3
-    100006: pCylinder4
-    100008: pCylinder5
-    100010: pCylinder6
     400000: //RootNode
-    400002: pCylinder2
-    400004: pCylinder3
-    400006: pCylinder4
-    400008: pCylinder5
-    400010: pCylinder6
-    2100000: phong1
-    2100002: phong2
+    2100000: phong3
+    2100002: phong1
     2300000: //RootNode
-    2300002: pCylinder2
-    2300004: pCylinder3
-    2300006: pCylinder4
-    2300008: pCylinder5
-    2300010: pCylinder6
     3300000: //RootNode
-    3300002: pCylinder2
-    3300004: pCylinder3
-    3300006: pCylinder4
-    3300008: pCylinder5
-    3300010: pCylinder6
-    4300000: pCylinder1
-    4300002: pCylinder2
-    4300004: pCylinder3
-    4300006: pCylinder4
-    4300008: pCylinder5
-    4300010: pCylinder6
+    4300000: Museum_Tree_02_b
   externalObjects: {}
   materials:
     importMaterials: 0
