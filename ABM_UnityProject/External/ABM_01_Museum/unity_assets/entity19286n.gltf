@@ -11,25 +11,25 @@
 			"bufferView": 2,
 			"byteOffset": 0,
 			"componentType": 5126,
-			"count": 299,
-			"max": [ 2.441406E-06, 76.6184, 25.93577 ],
-			"min": [ -25.77725, 60.45864, -12.97707 ],
+			"count": 156,
+			"max": [ -9.243905, 61.6184, -9.243903 ],
+			"min": [ -22.47694, 60.45864, -22.47694 ],
 			"type": "VEC3"
 		},
 		{
 			"bufferView": 2,
-			"byteOffset": 3588,
+			"byteOffset": 1872,
 			"componentType": 5126,
-			"count": 299,
-			"max": [ 1, 0.973501, 0.9676942 ],
-			"min": [ -0.999527, -0.9659056, -0.9677098 ],
+			"count": 156,
+			"max": [ 0.7071259, 1, 0.7071233 ],
+			"min": [ -0.7784699, -1, -0.778475 ],
 			"type": "VEC3"
 		},
 		{
 			"bufferView": 1,
 			"byteOffset": 0,
 			"componentType": 5126,
-			"count": 299,
+			"count": 156,
 			"max": [ 1.844881, 0.9998995 ],
 			"min": [ 1.844881, 0.401612 ],
 			"type": "VEC2"
@@ -38,7 +38,7 @@
 			"bufferView": 3,
 			"byteOffset": 0,
 			"componentType": 5126,
-			"count": 299,
+			"count": 156,
 			"max": [ 1, 0, 0, 1 ],
 			"min": [ 1, 0, 0, 1 ],
 			"type": "VEC4"
@@ -47,45 +47,45 @@
 			"bufferView": 0,
 			"byteOffset": 0,
 			"componentType": 5123,
-			"count": 630,
-			"max": [ 298 ],
+			"count": 252,
+			"max": [ 155 ],
 			"min": [ 0 ],
 			"type": "SCALAR"
 		}
 	],
 	"buffers": [
 		{
-			"byteLength": 15612,
-			"uri": "entity5896n.bin"
+			"byteLength": 7992,
+			"uri": "entity19286n.bin"
 		}
 	],
 	"bufferViews": [
 		{
 			"buffer": 0,
-			"byteLength": 1260,
+			"byteLength": 504,
 			"target": 34963,
-			"byteOffset": 14352
+			"byteOffset": 7488
 		},
 		{
 			"buffer": 0,
-			"byteLength": 2392,
+			"byteLength": 1248,
 			"target": 34962,
 			"byteStride": 8,
 			"byteOffset": 0
 		},
 		{
 			"buffer": 0,
-			"byteLength": 7176,
+			"byteLength": 3744,
 			"target": 34962,
 			"byteStride": 12,
-			"byteOffset": 2392
+			"byteOffset": 1248
 		},
 		{
 			"buffer": 0,
-			"byteLength": 4784,
+			"byteLength": 2496,
 			"target": 34962,
 			"byteStride": 16,
-			"byteOffset": 9568
+			"byteOffset": 4992
 		}
 	],
 	"materials": [
@@ -102,7 +102,7 @@
 	],
 	"meshes": [
 		{
-			"name": "mesh_Museum_Hex_Base20_12572Museum_Hex_Base20",
+			"name": "mesh_Museum_Hex_Base24_15950Museum_Hex_Base24",
 			"primitives": [
 				{
 					"attributes": {
@@ -126,7 +126,7 @@
 			]
 		},
 		{
-			"name": "node_Museum_Hex_Base20",
+			"name": "node_Museum_Hex_Base24",
 			"mesh": 0,
 			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
 		}

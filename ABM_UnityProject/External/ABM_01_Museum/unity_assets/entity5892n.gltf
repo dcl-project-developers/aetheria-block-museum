@@ -12,8 +12,8 @@
 			"byteOffset": 0,
 			"componentType": 5126,
 			"count": 299,
-			"max": [ 25.80295, 31.6184, 25.95414 ],
-			"min": [ -3.662109E-06, 15.45864, -12.96789 ],
+			"max": [ 25.95414, 61.6184, 4.882812E-06 ],
+			"min": [ -12.96789, 45.45864, -25.80295 ],
 			"type": "VEC3"
 		},
 		{
@@ -21,8 +21,8 @@
 			"byteOffset": 3588,
 			"componentType": 5126,
 			"count": 299,
-			"max": [ 0.9993706, 0.9735016, 0.9658796 ],
-			"min": [ -0.9993401, -0.9659056, -0.9658659 ],
+			"max": [ 0.9658787, 0.9735023, 0.99934 ],
+			"min": [ -0.9658693, -0.9659057, -0.9993705 ],
 			"type": "VEC3"
 		},
 		{
@@ -88,33 +88,16 @@
 			"byteOffset": 9568
 		}
 	],
-	"images": [
-		{
-			"uri": "Assets/Visuals/Materials/Textures/Tileset_Metal_02_Albedo.jpg"
-		},
-		{
-			"uri": "Assets/Visuals/Materials/Textures/Tileset_Metal_02_Normal.jpg"
-		}
-	],
 	"materials": [
 		{
-			"extensions": {
-				"KHR_materials_pbrSpecularGlossiness": {
-					"baseColorTexture" : {
-						"index" : 0,
-						"texCoord" : 0
-					},
-					"baseColorFactor": [1, 1, 1, 1]				}
-
-			},
-			"normalTexture" : {
-				"index" : 1,
-				"texCoord" : 0,
-				"scale" : 1
+			"pbrMetallicRoughness": {
+				"baseColorFactor": [1, 1, 1, 1],
+				"metallicFactor": 0,
+				"roughnessFactor": 0.5
 			},
 			"emissiveFactor": [0, 0, 0],
 			"doubleSided": false,
-			"name": "Walled"
+			"name": "Default-Material"
 		}
 	],
 	"meshes": [
@@ -148,14 +131,6 @@
 			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
 		}
 	],
-	"samplers": [
-		{
-			"magFilter": 9729,
-			"minFilter": 9985,
-			"wrapS": 10497,
-			"wrapT": 10497
-		}
-	],
 	"scenes": [
 		{
 			"name":"defaultScene",
@@ -164,15 +139,5 @@
 			]
 		}
 	],
-	"scene": 0,
-	"textures": [
-		{
-			"sampler": 0,
-			"source": 0
-		},
-		{
-			"sampler": 0,
-			"source": 1
-		}
-	]
+	"scene": 0
 }

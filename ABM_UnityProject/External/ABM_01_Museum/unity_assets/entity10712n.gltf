@@ -8,37 +8,28 @@
 	},
 	"accessors": [
 		{
-			"bufferView": 2,
+			"bufferView": 1,
 			"byteOffset": 0,
 			"componentType": 5126,
-			"count": 299,
-			"max": [ 2.441406E-06, 76.6184, 25.93577 ],
-			"min": [ -25.77725, 60.45864, -12.97707 ],
-			"type": "VEC3"
-		},
-		{
-			"bufferView": 2,
-			"byteOffset": 3588,
-			"componentType": 5126,
-			"count": 299,
-			"max": [ 1, 0.973501, 0.9676942 ],
-			"min": [ -0.999527, -0.9659056, -0.9677098 ],
+			"count": 4354,
+			"max": [ 24.68461, 92.12392, 17.74277 ],
+			"min": [ -34.78846, -5.812971, -18.88668 ],
 			"type": "VEC3"
 		},
 		{
 			"bufferView": 1,
-			"byteOffset": 0,
+			"byteOffset": 52248,
 			"componentType": 5126,
-			"count": 299,
-			"max": [ 1.844881, 0.9998995 ],
-			"min": [ 1.844881, 0.401612 ],
-			"type": "VEC2"
+			"count": 4354,
+			"max": [ 0.9999443, 0.9993356, 0.9996895 ],
+			"min": [ -0.9999782, -0.9997697, -0.9983647 ],
+			"type": "VEC3"
 		},
 		{
-			"bufferView": 3,
+			"bufferView": 2,
 			"byteOffset": 0,
 			"componentType": 5126,
-			"count": 299,
+			"count": 4354,
 			"max": [ 1, 0, 0, 1 ],
 			"min": [ 1, 0, 0, 1 ],
 			"type": "VEC4"
@@ -47,45 +38,38 @@
 			"bufferView": 0,
 			"byteOffset": 0,
 			"componentType": 5123,
-			"count": 630,
-			"max": [ 298 ],
+			"count": 4632,
+			"max": [ 4353 ],
 			"min": [ 0 ],
 			"type": "SCALAR"
 		}
 	],
 	"buffers": [
 		{
-			"byteLength": 15612,
-			"uri": "entity5896n.bin"
+			"byteLength": 183424,
+			"uri": "entity10712n.bin"
 		}
 	],
 	"bufferViews": [
 		{
 			"buffer": 0,
-			"byteLength": 1260,
+			"byteLength": 9264,
 			"target": 34963,
-			"byteOffset": 14352
+			"byteOffset": 174160
 		},
 		{
 			"buffer": 0,
-			"byteLength": 2392,
+			"byteLength": 104496,
 			"target": 34962,
-			"byteStride": 8,
+			"byteStride": 12,
 			"byteOffset": 0
 		},
 		{
 			"buffer": 0,
-			"byteLength": 7176,
-			"target": 34962,
-			"byteStride": 12,
-			"byteOffset": 2392
-		},
-		{
-			"buffer": 0,
-			"byteLength": 4784,
+			"byteLength": 69664,
 			"target": 34962,
 			"byteStride": 16,
-			"byteOffset": 9568
+			"byteOffset": 104496
 		}
 	],
 	"materials": [
@@ -102,16 +86,15 @@
 	],
 	"meshes": [
 		{
-			"name": "mesh_Museum_Hex_Base20_12572Museum_Hex_Base20",
+			"name": "mesh_Museum_Tree_01_14146Museum_Tree_01_Art",
 			"primitives": [
 				{
 					"attributes": {
 						"POSITION": 0,
 						"NORMAL": 1,
-						"TEXCOORD_0": 2,
-						"TANGENT": 3
+						"TANGENT": 2
 					},
-					"indices": 4,
+					"indices": 3,
 					"material": 0,
 					"mode": 4
 				}
@@ -126,7 +109,7 @@
 			]
 		},
 		{
-			"name": "node_Museum_Hex_Base20",
+			"name": "node_Museum_Tree_01_Art",
 			"mesh": 0,
 			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
 		}
