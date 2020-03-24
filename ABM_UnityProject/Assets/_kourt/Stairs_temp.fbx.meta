@@ -20,6 +20,17 @@ ModelImporter:
     100028: Museum_Hex_Base23
     100030: Museum_Hex_Base24
     100032: Museum_Hex_Base25
+    100034: Museum_Stairs_Piece_1
+    100036: Museum_Stairs_Piece_2
+    100038: Museum_Stairs_Piece_3
+    100040: Museum_Stairs_Piece_4
+    100042: Museum_Stairs_Piece_5
+    100044: Museum_Stairs_Platform_1
+    100046: Museum_Stairs_Platform_2
+    100048: Museum_Stairs_Platform_3
+    100050: Museum_Stairs_Platform_4
+    100052: Museum_Stairs_Platform_5
+    100054: Museum_Stairs_Collider
     400000: //RootNode
     400002: Museum_Hex_Base10
     400004: Museum_Hex_Base12
@@ -37,6 +48,17 @@ ModelImporter:
     400028: Museum_Hex_Base23
     400030: Museum_Hex_Base24
     400032: Museum_Hex_Base25
+    400034: Museum_Stairs_Piece_1
+    400036: Museum_Stairs_Piece_2
+    400038: Museum_Stairs_Piece_3
+    400040: Museum_Stairs_Piece_4
+    400042: Museum_Stairs_Piece_5
+    400044: Museum_Stairs_Platform_1
+    400046: Museum_Stairs_Platform_2
+    400048: Museum_Stairs_Platform_3
+    400050: Museum_Stairs_Platform_4
+    400052: Museum_Stairs_Platform_5
+    400054: Museum_Stairs_Collider
     2100000: Walled
     2300000: //RootNode
     2300002: Museum_Hex_Base10
@@ -55,6 +77,17 @@ ModelImporter:
     2300028: Museum_Hex_Base23
     2300030: Museum_Hex_Base24
     2300032: Museum_Hex_Base25
+    2300034: Museum_Stairs_Piece_1
+    2300036: Museum_Stairs_Piece_2
+    2300038: Museum_Stairs_Piece_3
+    2300040: Museum_Stairs_Piece_4
+    2300042: Museum_Stairs_Piece_5
+    2300044: Museum_Stairs_Platform_1
+    2300046: Museum_Stairs_Platform_2
+    2300048: Museum_Stairs_Platform_3
+    2300050: Museum_Stairs_Platform_4
+    2300052: Museum_Stairs_Platform_5
+    2300054: Museum_Stairs_Collider
     3300000: //RootNode
     3300002: Museum_Hex_Base10
     3300004: Museum_Hex_Base12
@@ -72,6 +105,17 @@ ModelImporter:
     3300028: Museum_Hex_Base23
     3300030: Museum_Hex_Base24
     3300032: Museum_Hex_Base25
+    3300034: Museum_Stairs_Piece_1
+    3300036: Museum_Stairs_Piece_2
+    3300038: Museum_Stairs_Piece_3
+    3300040: Museum_Stairs_Piece_4
+    3300042: Museum_Stairs_Piece_5
+    3300044: Museum_Stairs_Platform_1
+    3300046: Museum_Stairs_Platform_2
+    3300048: Museum_Stairs_Platform_3
+    3300050: Museum_Stairs_Platform_4
+    3300052: Museum_Stairs_Platform_5
+    3300054: Museum_Stairs_Collider
     4300000: Museum_Hex_Base6
     4300002: Museum_Hex_Base14
     4300004: Museum_Hex_Base13
@@ -89,6 +133,17 @@ ModelImporter:
     4300028: Museum_Hex_Base23
     4300030: Museum_Hex_Base24
     4300032: Museum_Hex_Base25
+    4300034: Museum_Stairs_Platform_1
+    4300036: Museum_Stairs_Piece_1
+    4300038: Museum_Stairs_Piece_2
+    4300040: Museum_Stairs_Platform_2
+    4300042: Museum_Stairs_Piece_3
+    4300044: Museum_Stairs_Platform_3
+    4300046: Museum_Stairs_Piece_4
+    4300048: Museum_Stairs_Platform_4
+    4300050: Museum_Stairs_Piece_5
+    4300052: Museum_Stairs_Platform_5
+    4300054: Museum_Stairs_Collider
   externalObjects: {}
   materials:
     importMaterials: 0

@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Tileset_Metal_02_Mat
+  m_Name: Museum_Tree_01_Mat
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: _METALLICGLOSSMAP _NORMALMAP
   m_LightmapFlags: 4
@@ -20,7 +20,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: 7f4d913b2c8bf0b46b03ceccaca20c06, type: 3}
+        m_Texture: {fileID: 2800000, guid: 9ce9aaedd68ebff46afea1d4db5c54ac, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -40,15 +40,15 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 33b2df9bc89decb498de889ff61e8f64, type: 3}
+        m_Texture: {fileID: 2800000, guid: 25f2425b86155c640b07875482e01caa, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
-        m_Texture: {fileID: 2800000, guid: f67eae12c3fe58949b37d2251d83d2ae, type: 3}
+        m_Texture: {fileID: 2800000, guid: 516db02f8185e594eb86d3addb6c67d5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
-        m_Texture: {fileID: 2800000, guid: f67eae12c3fe58949b37d2251d83d2ae, type: 3}
+        m_Texture: {fileID: 2800000, guid: 516db02f8185e594eb86d3addb6c67d5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:

@@ -1,19 +1,15 @@
 fileFormatVersion: 2
-guid: f2c25b46714cb924e945dd08a2eee941
+guid: 767ea858db25bcd4aae2457edf27de3f
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
-    100002: Museum_Tree_01_Collider
     400000: //RootNode
-    400002: Museum_Tree_01_Collider
     2100000: phong1
+    2100002: Walled
     2300000: //RootNode
-    2300002: Museum_Tree_01_Collider
     3300000: //RootNode
-    3300002: Museum_Tree_01_Collider
-    4300000: Museum_Tree_01
-    4300002: Museum_Tree_01_Collider
+    4300000: Museum_Ad_Projector_01
   externalObjects: {}
   materials:
     importMaterials: 0
