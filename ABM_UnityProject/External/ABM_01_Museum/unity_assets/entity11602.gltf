@@ -11,26 +11,26 @@
 			"bufferView": 2,
 			"byteOffset": 0,
 			"componentType": 5126,
-			"count": 2267,
+			"count": 2198,
 			"max": [ 24.48973, 91.92782, 17.56822 ],
 			"min": [ -34.23218, -2.18603, -18.86995 ],
 			"type": "VEC3"
 		},
 		{
 			"bufferView": 2,
-			"byteOffset": 27204,
+			"byteOffset": 26376,
 			"componentType": 5126,
-			"count": 2267,
-			"max": [ 0.9999392, 0.995076, 0.9953519 ],
-			"min": [ -0.9994253, -0.9785553, -0.9929645 ],
+			"count": 2198,
+			"max": [ 0.9998461, 0.9940882, 0.998325 ],
+			"min": [ -0.9993594, -0.9989746, -0.9986216 ],
 			"type": "VEC3"
 		},
 		{
 			"bufferView": 1,
 			"byteOffset": 0,
 			"componentType": 5126,
-			"count": 2267,
-			"max": [ 4.967411, 4.85431 ],
+			"count": 2198,
+			"max": [ 1, 2 ],
 			"min": [ 0, 0 ],
 			"type": "VEC2"
 		},
@@ -38,9 +38,9 @@
 			"bufferView": 3,
 			"byteOffset": 0,
 			"componentType": 5126,
-			"count": 2267,
-			"max": [ 0.9945453, 0.997886, 0.9990404, 1 ],
-			"min": [ -0.9955303, -0.9929137, -0.9992587, 1 ],
+			"count": 2198,
+			"max": [ 1, 0.9996661, 0.9996647, 1 ],
+			"min": [ -0.9997583, -0.9995485, -0.9973779, -1 ],
 			"type": "VEC4"
 		},
 		{
@@ -48,13 +48,13 @@
 			"byteOffset": 0,
 			"componentType": 5123,
 			"count": 3423,
-			"max": [ 2266 ],
+			"max": [ 2197 ],
 			"min": [ 0 ],
 			"type": "SCALAR"
 		},
 		{
 			"bufferView": 2,
-			"byteOffset": 54408,
+			"byteOffset": 52752,
 			"componentType": 5126,
 			"count": 608,
 			"max": [ 23.49485, 94.75247, 17.72278 ],
@@ -63,7 +63,7 @@
 		},
 		{
 			"bufferView": 2,
-			"byteOffset": 61704,
+			"byteOffset": 60048,
 			"componentType": 5126,
 			"count": 608,
 			"max": [ 0.9822415, 0.9927857, 0.9981241 ],
@@ -72,7 +72,7 @@
 		},
 		{
 			"bufferView": 1,
-			"byteOffset": 18136,
+			"byteOffset": 17584,
 			"componentType": 5126,
 			"count": 608,
 			"max": [ 4.967411, 4.85431 ],
@@ -81,7 +81,7 @@
 		},
 		{
 			"bufferView": 3,
-			"byteOffset": 36272,
+			"byteOffset": 35168,
 			"componentType": 5126,
 			"count": 608,
 			"max": [ 0.9970526, 0.9547779, 0.9942729, 1 ],
@@ -100,8 +100,8 @@
 	],
 	"buffers": [
 		{
-			"byteLength": 146622,
-			"uri": "entity16088.bin"
+			"byteLength": 143310,
+			"uri": "entity11602.bin"
 		}
 	],
 	"bufferViews": [
@@ -109,28 +109,28 @@
 			"buffer": 0,
 			"byteLength": 8622,
 			"target": 34963,
-			"byteOffset": 138000
+			"byteOffset": 134688
 		},
 		{
 			"buffer": 0,
-			"byteLength": 23000,
+			"byteLength": 22448,
 			"target": 34962,
 			"byteStride": 8,
 			"byteOffset": 0
 		},
 		{
 			"buffer": 0,
-			"byteLength": 69000,
+			"byteLength": 67344,
 			"target": 34962,
 			"byteStride": 12,
-			"byteOffset": 23000
+			"byteOffset": 22448
 		},
 		{
 			"buffer": 0,
-			"byteLength": 46000,
+			"byteLength": 44896,
 			"target": 34962,
 			"byteStride": 16,
-			"byteOffset": 92000
+			"byteOffset": 89792
 		}
 	],
 	"images": [
@@ -189,7 +189,7 @@
 	],
 	"meshes": [
 		{
-			"name": "mesh_Museum_Tree_01_10256Museum_Tree_01",
+			"name": "mesh_Museum_Tree_01_10268Museum_Tree_01",
 			"primitives": [
 				{
 					"attributes": {
@@ -205,7 +205,7 @@
 			]
 		},
 		{
-			"name": "mesh_Museum_Tree_01_Collider_47738Museum_Tree_01_Collider",
+			"name": "mesh_Museum_Tree_01_Collider_10270Museum_Tree_01_Collider",
 			"primitives": [
 				{
 					"attributes": {

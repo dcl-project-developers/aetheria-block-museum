@@ -12,7 +12,7 @@
 			"byteOffset": 0,
 			"componentType": 5126,
 			"count": 1358,
-			"max": [ 3.510328, 12.17362, 3.510328 ],
+			"max": [ 3.510328, 11.95662, 3.510328 ],
 			"min": [ -3.510328, 0, -3.510328 ],
 			"type": "VEC3"
 		},
@@ -21,8 +21,8 @@
 			"byteOffset": 16296,
 			"componentType": 5126,
 			"count": 1358,
-			"max": [ 0.999951, 1, 0.999951 ],
-			"min": [ -0.999951, -0.9849799, -0.999951 ],
+			"max": [ 0.9998994, 1, 0.9998994 ],
+			"min": [ -0.9998994, -0.9849799, -0.9998994 ],
 			"type": "VEC3"
 		},
 		{
@@ -39,8 +39,8 @@
 			"byteOffset": 0,
 			"componentType": 5126,
 			"count": 1358,
-			"max": [ 1, 0.5011039, 1, 1 ],
-			"min": [ -1, -0.9999707, -1, -1 ],
+			"max": [ 1, 0.501104, 1, 1 ],
+			"min": [ -1, -0.9999646, -1, -1 ],
 			"type": "VEC4"
 		},
 		{
@@ -83,7 +83,7 @@
 	"buffers": [
 		{
 			"byteLength": 69960,
-			"uri": "entity18048.bin"
+			"uri": "entity1506n.bin"
 		}
 	],
 	"bufferViews": [
@@ -168,7 +168,7 @@
 				"metallicFactor": 0,
 				"roughnessFactor": 0.5
 			},
-			"emissiveFactor": [1, 0.6933962, 0.6933962],
+			"emissiveFactor": [0.9722661, 0.6941177, 1],
 			"doubleSided": false,
 			"name": "Tileset_Emissive_01_Mat"
 		},
@@ -202,7 +202,7 @@
 		},
 		{
 			"pbrMetallicRoughness": {
-				"baseColorFactor": [1, 0.9857922, 0.4103774, 0.3411765],
+				"baseColorFactor": [0.9724381, 0.2971698, 1, 0.4705882],
 				"metallicFactor": 0,
 				"roughnessFactor": 0
 			},
@@ -210,12 +210,12 @@
 			"alphaCutoff": 0.5,
 			"emissiveFactor": [0, 0, 0],
 			"doubleSided": false,
-			"name": "temp_yellow"
+			"name": "temp_pink"
 		}
 	],
 	"meshes": [
 		{
-			"name": "mesh_Museum_Tree_02_a_10336Museum_Tree_02_a (0)",
+			"name": "mesh_Museum_Tree_02_b_11178Museum_Tree_02_b",
 			"primitives": [
 				{
 					"attributes": {
@@ -272,7 +272,7 @@
 			]
 		},
 		{
-			"name": "node_Museum_Tree_02_a (0)",
+			"name": "node_Museum_Tree_02_b",
 			"mesh": 0,
 			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
 		}

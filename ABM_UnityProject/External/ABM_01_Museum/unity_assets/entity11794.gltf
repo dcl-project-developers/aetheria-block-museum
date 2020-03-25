@@ -713,7 +713,7 @@
 	"buffers": [
 		{
 			"byteLength": 226884,
-			"uri": "entity16274.bin"
+			"uri": "entity11794.bin"
 		}
 	],
 	"bufferViews": [
@@ -850,7 +850,7 @@
 	],
 	"meshes": [
 		{
-			"name": "mesh_Museum_Hex_Base_01_10564Museum_Hex_Base",
+			"name": "mesh_Museum_Hex_Base_01_10582Museum_Hex_Base",
 			"primitives": [
 				{
 					"attributes": {
@@ -877,7 +877,7 @@
 			]
 		},
 		{
-			"name": "mesh_Museum_Hex_Base_01_Collider_10566Museum_Hex_Base_01_Collider",
+			"name": "mesh_Museum_Hex_Base_01_Collider_10584Museum_Hex_Base_01_Collider",
 			"primitives": [
 				{
 					"attributes": {
@@ -893,7 +893,7 @@
 			]
 		},
 		{
-			"name": "mesh_Cube_11240Ads_2",
+			"name": "mesh_Cube_11268Ads_2",
 			"primitives": [
 				{
 					"attributes": {
@@ -906,7 +906,7 @@
 			]
 		},
 		{
-			"name": "mesh_Museum_Ad_Projector_02_11296Museum_Ad_Projector_02 (1)",
+			"name": "mesh_Museum_Ad_Projector_02_11324Museum_Ad_Projector_02 (1)",
 			"primitives": [
 				{
 					"attributes": {
@@ -933,7 +933,7 @@
 			]
 		},
 		{
-			"name": "mesh_Museum_Ad_Projector_02_11296Museum_Ad_Projector_02 (2)",
+			"name": "mesh_Museum_Ad_Projector_02_11324Museum_Ad_Projector_02 (2)",
 			"primitives": [
 				{
 					"attributes": {
@@ -960,7 +960,7 @@
 			]
 		},
 		{
-			"name": "mesh_Museum_Ad_Projector_02_11296Museum_Ad_Projector_02 (3)",
+			"name": "mesh_Museum_Ad_Projector_02_11324Museum_Ad_Projector_02 (3)",
 			"primitives": [
 				{
 					"attributes": {
@@ -987,7 +987,7 @@
 			]
 		},
 		{
-			"name": "mesh_Cube_11240Ads_1",
+			"name": "mesh_Cube_11268Ads_1",
 			"primitives": [
 				{
 					"attributes": {
@@ -1000,7 +1000,7 @@
 			]
 		},
 		{
-			"name": "mesh_Museum_Ad_Projector_01_10384Museum_Ad_Projector_01 (1)",
+			"name": "mesh_Museum_Ad_Projector_01_10398Museum_Ad_Projector_01 (1)",
 			"primitives": [
 				{
 					"attributes": {
@@ -1027,7 +1027,7 @@
 			]
 		},
 		{
-			"name": "mesh_Museum_Ad_Projector_01_10384Museum_Ad_Projector_01 (2)",
+			"name": "mesh_Museum_Ad_Projector_01_10398Museum_Ad_Projector_01 (2)",
 			"primitives": [
 				{
 					"attributes": {
@@ -1054,7 +1054,7 @@
 			]
 		},
 		{
-			"name": "mesh_Museum_Ad_Projector_01_10384Museum_Ad_Projector_01 (3)",
+			"name": "mesh_Museum_Ad_Projector_01_10398Museum_Ad_Projector_01 (3)",
 			"primitives": [
 				{
 					"attributes": {
@@ -1081,7 +1081,7 @@
 			]
 		},
 		{
-			"name": "mesh_Museum_Ad_Projector_01_10384Museum_Ad_Projector_01 (4)",
+			"name": "mesh_Museum_Ad_Projector_01_10398Museum_Ad_Projector_01 (4)",
 			"primitives": [
 				{
 					"attributes": {
@@ -1108,7 +1108,7 @@
 			]
 		},
 		{
-			"name": "mesh_Museum_Ad_Projector_01_10384Museum_Ad_Projector_01 (5)",
+			"name": "mesh_Museum_Ad_Projector_01_10398Museum_Ad_Projector_01 (5)",
 			"primitives": [
 				{
 					"attributes": {
@@ -1135,7 +1135,7 @@
 			]
 		},
 		{
-			"name": "mesh_Museum_Ad_Projector_01_10384Museum_Ad_Projector_01 (6)",
+			"name": "mesh_Museum_Ad_Projector_01_10398Museum_Ad_Projector_01 (6)",
 			"primitives": [
 				{
 					"attributes": {

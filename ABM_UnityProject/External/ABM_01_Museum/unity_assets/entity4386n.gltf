@@ -524,7 +524,7 @@
 	"buffers": [
 		{
 			"byteLength": 335832,
-			"uri": "entity18596.bin"
+			"uri": "entity4386n.bin"
 		}
 	],
 	"bufferViews": [
@@ -614,7 +614,7 @@
 	],
 	"meshes": [
 		{
-			"name": "mesh_Cube_11240Museum_Stairs",
+			"name": "mesh_Cube_11268Museum_Stairs",
 			"primitives": [
 				{
 					"attributes": {
@@ -627,7 +627,7 @@
 			]
 		},
 		{
-			"name": "mesh_Museum_Stairs_Piece_1_19552Museum_Stairs_Piece_1",
+			"name": "mesh_Museum_Stairs_Piece_1_10450Museum_Stairs_Piece_1",
 			"primitives": [
 				{
 					"attributes": {
@@ -643,7 +643,7 @@
 			]
 		},
 		{
-			"name": "mesh_Museum_Stairs_Piece_2_19554Museum_Stairs_Piece_2",
+			"name": "mesh_Museum_Stairs_Piece_2_10452Museum_Stairs_Piece_2",
 			"primitives": [
 				{
 					"attributes": {
@@ -659,7 +659,7 @@
 			]
 		},
 		{
-			"name": "mesh_Museum_Stairs_Piece_3_19558Museum_Stairs_Piece_3",
+			"name": "mesh_Museum_Stairs_Piece_3_10454Museum_Stairs_Piece_3",
 			"primitives": [
 				{
 					"attributes": {
@@ -675,7 +675,7 @@
 			]
 		},
 		{
-			"name": "mesh_Museum_Stairs_Piece_4_19562Museum_Stairs_Piece_4",
+			"name": "mesh_Museum_Stairs_Piece_4_10456Museum_Stairs_Piece_4",
 			"primitives": [
 				{
 					"attributes": {
@@ -691,7 +691,7 @@
 			]
 		},
 		{
-			"name": "mesh_Museum_Stairs_Piece_5_19566Museum_Stairs_Piece_5",
+			"name": "mesh_Museum_Stairs_Piece_5_10458Museum_Stairs_Piece_5",
 			"primitives": [
 				{
 					"attributes": {
@@ -707,7 +707,7 @@
 			]
 		},
 		{
-			"name": "mesh_Museum_Stairs_Platform_1_19550Museum_Stairs_Platform_1",
+			"name": "mesh_Museum_Stairs_Platform_1_10460Museum_Stairs_Platform_1",
 			"primitives": [
 				{
 					"attributes": {
@@ -723,7 +723,7 @@
 			]
 		},
 		{
-			"name": "mesh_Museum_Stairs_Platform_2_19556Museum_Stairs_Platform_2",
+			"name": "mesh_Museum_Stairs_Platform_2_10462Museum_Stairs_Platform_2",
 			"primitives": [
 				{
 					"attributes": {
@@ -739,7 +739,7 @@
 			]
 		},
 		{
-			"name": "mesh_Museum_Stairs_Platform_3_19560Museum_Stairs_Platform_3",
+			"name": "mesh_Museum_Stairs_Platform_3_10464Museum_Stairs_Platform_3",
 			"primitives": [
 				{
 					"attributes": {
@@ -755,7 +755,7 @@
 			]
 		},
 		{
-			"name": "mesh_Museum_Stairs_Platform_4_19564Museum_Stairs_Platform_4",
+			"name": "mesh_Museum_Stairs_Platform_4_10466Museum_Stairs_Platform_4",
 			"primitives": [
 				{
 					"attributes": {
@@ -771,7 +771,7 @@
 			]
 		},
 		{
-			"name": "mesh_Museum_Stairs_Platform_5_19568Museum_Stairs_Platform_5",
+			"name": "mesh_Museum_Stairs_Platform_5_10468Museum_Stairs_Platform_5",
 			"primitives": [
 				{
 					"attributes": {
@@ -787,7 +787,7 @@
 			]
 		},
 		{
-			"name": "mesh_Museum_Stairs_Collider_51232Museum_Stairs_Collider",
+			"name": "mesh_Museum_Stairs_Collider_10448Museum_Stairs_Collider",
 			"primitives": [
 				{
 					"attributes": {
