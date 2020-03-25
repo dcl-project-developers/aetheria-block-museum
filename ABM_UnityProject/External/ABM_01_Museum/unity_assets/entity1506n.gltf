@@ -11,16 +11,16 @@
 			"bufferView": 2,
 			"byteOffset": 0,
 			"componentType": 5126,
-			"count": 1358,
+			"count": 1365,
 			"max": [ 3.510328, 11.95662, 3.510328 ],
 			"min": [ -3.510328, 0, -3.510328 ],
 			"type": "VEC3"
 		},
 		{
 			"bufferView": 2,
-			"byteOffset": 16296,
+			"byteOffset": 16380,
 			"componentType": 5126,
-			"count": 1358,
+			"count": 1365,
 			"max": [ 0.9998994, 1, 0.9998994 ],
 			"min": [ -0.9998994, -0.9849799, -0.9998994 ],
 			"type": "VEC3"
@@ -29,8 +29,8 @@
 			"bufferView": 1,
 			"byteOffset": 0,
 			"componentType": 5126,
-			"count": 1358,
-			"max": [ 2.538963, 0.6151374 ],
+			"count": 1365,
+			"max": [ 2.538963, 0.9988194 ],
 			"min": [ -1.124731, 0 ],
 			"type": "VEC2"
 		},
@@ -38,8 +38,8 @@
 			"bufferView": 3,
 			"byteOffset": 0,
 			"componentType": 5126,
-			"count": 1358,
-			"max": [ 1, 0.501104, 1, 1 ],
+			"count": 1365,
+			"max": [ 1, 0.9547494, 1, 1 ],
 			"min": [ -1, -0.9999646, -1, -1 ],
 			"type": "VEC4"
 		},
@@ -75,14 +75,14 @@
 			"byteOffset": 3624,
 			"componentType": 5123,
 			"count": 576,
-			"max": [ 1357 ],
+			"max": [ 1364 ],
 			"min": [ 1054 ],
 			"type": "SCALAR"
 		}
 	],
 	"buffers": [
 		{
-			"byteLength": 69960,
+			"byteLength": 70296,
 			"uri": "entity1506n.bin"
 		}
 	],
@@ -91,28 +91,28 @@
 			"buffer": 0,
 			"byteLength": 4776,
 			"target": 34963,
-			"byteOffset": 65184
+			"byteOffset": 65520
 		},
 		{
 			"buffer": 0,
-			"byteLength": 10864,
+			"byteLength": 10920,
 			"target": 34962,
 			"byteStride": 8,
 			"byteOffset": 0
 		},
 		{
 			"buffer": 0,
-			"byteLength": 32592,
+			"byteLength": 32760,
 			"target": 34962,
 			"byteStride": 12,
-			"byteOffset": 10864
+			"byteOffset": 10920
 		},
 		{
 			"buffer": 0,
-			"byteLength": 21728,
+			"byteLength": 21840,
 			"target": 34962,
 			"byteStride": 16,
-			"byteOffset": 43456
+			"byteOffset": 43680
 		}
 	],
 	"images": [
@@ -136,6 +136,9 @@
 		},
 		{
 			"uri": "Assets/Visuals/Materials/Textures/Tileset_Metal_02_Metallic.jpg"
+		},
+		{
+			"uri": "Assets/Visuals/Materials/Textures/Tileset_Transparencies_01_Albedo.png"
 		}
 	],
 	"materials": [
@@ -202,15 +205,19 @@
 		},
 		{
 			"pbrMetallicRoughness": {
-				"baseColorFactor": [0.9724381, 0.2971698, 1, 0.4705882],
+				"baseColorTexture" : {
+					"index" : 7,
+					"texCoord" : 0
+				},
+				"baseColorFactor": [1, 1, 1, 1],
 				"metallicFactor": 0,
-				"roughnessFactor": 0
+				"roughnessFactor": 0.5
 			},
 			"alphaMode": "BLEND",
 			"alphaCutoff": 0.5,
 			"emissiveFactor": [0, 0, 0],
 			"doubleSided": false,
-			"name": "temp_pink"
+			"name": "Tileset_Transparencies_01_Mat"
 		}
 	],
 	"meshes": [
@@ -322,6 +329,10 @@
 		{
 			"sampler": 0,
 			"source": 6
+		},
+		{
+			"sampler": 0,
+			"source": 7
 		}
 	]
 }
