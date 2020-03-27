@@ -1,0 +1,279 @@
+{
+	"asset": {
+		"generator": "Unity 2018.3.6f1",
+		"extras": {
+			"exporterVersion" : "2.2.1"
+		},
+		"version": "2.0"
+	},
+	"accessors": [
+		{
+			"bufferView": 2,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 2198,
+			"max": [ 24.48973, 91.92782, 17.56822 ],
+			"min": [ -34.23218, -2.18603, -18.86995 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 26376,
+			"componentType": 5126,
+			"count": 2198,
+			"max": [ 0.9998461, 0.9940882, 0.998325 ],
+			"min": [ -0.9993594, -0.9989746, -0.9986216 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 1,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 2198,
+			"max": [ 1, 2 ],
+			"min": [ 0, 0 ],
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 2198,
+			"max": [ 1, 0.9996661, 0.9996647, 1 ],
+			"min": [ -0.9997583, -0.9995485, -0.9973779, -1 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 0,
+			"componentType": 5123,
+			"count": 3423,
+			"max": [ 2197 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 52752,
+			"componentType": 5126,
+			"count": 608,
+			"max": [ 23.49485, 94.75247, 17.72278 ],
+			"min": [ -34.80749, -2.056952, -20.94068 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 60048,
+			"componentType": 5126,
+			"count": 608,
+			"max": [ 0.9822415, 0.9927857, 0.9981241 ],
+			"min": [ -0.9999825, -0.9008073, -0.954545 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 1,
+			"byteOffset": 17584,
+			"componentType": 5126,
+			"count": 608,
+			"max": [ 4.967411, 4.85431 ],
+			"min": [ 0, 0.004869342 ],
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 35168,
+			"componentType": 5126,
+			"count": 608,
+			"max": [ 0.9970526, 0.9547779, 0.9942729, 1 ],
+			"min": [ -0.9612491, -0.9199406, -0.9989304, -1 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 6846,
+			"componentType": 5123,
+			"count": 888,
+			"max": [ 607 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		}
+	],
+	"buffers": [
+		{
+			"byteLength": 143310,
+			"uri": "entity11448.bin"
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 8622,
+			"target": 34963,
+			"byteOffset": 134688
+		},
+		{
+			"buffer": 0,
+			"byteLength": 22448,
+			"target": 34962,
+			"byteStride": 8,
+			"byteOffset": 0
+		},
+		{
+			"buffer": 0,
+			"byteLength": 67344,
+			"target": 34962,
+			"byteStride": 12,
+			"byteOffset": 22448
+		},
+		{
+			"buffer": 0,
+			"byteLength": 44896,
+			"target": 34962,
+			"byteStride": 16,
+			"byteOffset": 89792
+		}
+	],
+	"images": [
+		{
+			"uri": "Assets/Visuals/Materials/Textures/Museum_Tree_01_Albedo.jpg"
+		},
+		{
+			"uri": "Assets/Visuals/Materials/Textures/Museum_Tree_01_Metallic_converted_metalRoughness.jpg"
+		},
+		{
+			"uri": "Assets/Visuals/Materials/Textures/Museum_Tree_01_Normal.jpg"
+		},
+		{
+			"uri": "Assets/Visuals/Materials/Textures/Museum_Tree_01_Metallic.jpg"
+		}
+	],
+	"materials": [
+		{
+			"pbrMetallicRoughness": {
+				"baseColorTexture" : {
+					"index" : 0,
+					"texCoord" : 0
+				},
+				"baseColorFactor": [1, 1, 1, 1],
+				"metallicRoughnessTexture" : {
+					"index" : 1,
+					"texCoord" : 0
+				},
+				"metallicFactor": 1,
+				"roughnessFactor": 1
+			},
+			"normalTexture" : {
+				"index" : 2,
+				"texCoord" : 0,
+				"scale" : 1
+			},
+			"emissiveFactor": [0, 0, 0],
+			"occlusionTexture" : {
+				"index" : 3,
+				"texCoord" : 0,
+				"strength" : 1
+			},
+			"doubleSided": false,
+			"name": "Museum_Tree_01_Mat"
+		},
+		{
+			"pbrMetallicRoughness": {
+				"baseColorFactor": [0.2036906, 1, 0, 1],
+				"metallicFactor": 0,
+				"roughnessFactor": 0.5
+			},
+			"emissiveFactor": [0, 0, 0],
+			"doubleSided": false,
+			"name": "Collider_Mat"
+		}
+	],
+	"meshes": [
+		{
+			"name": "mesh_Museum_Tree_01_10280Museum_Tree_01",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": 0,
+						"NORMAL": 1,
+						"TEXCOORD_0": 2,
+						"TANGENT": 3
+					},
+					"indices": 4,
+					"material": 0,
+					"mode": 4
+				}
+			]
+		},
+		{
+			"name": "mesh_Museum_Tree_01_Collider_10282Museum_Tree_01_Collider",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": 5,
+						"NORMAL": 6,
+						"TEXCOORD_0": 7,
+						"TANGENT": 8
+					},
+					"indices": 9,
+					"material": 1,
+					"mode": 4
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"name": "UnityGlTF_root",
+			"children": [
+				1
+			]
+		},
+		{
+			"name": "node_Museum_Tree_01",
+			"mesh": 0,
+			"children": [
+				2
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		{
+			"name": "node_Museum_Tree_01_Collider",
+			"mesh": 1
+		}
+	],
+	"samplers": [
+		{
+			"magFilter": 9729,
+			"minFilter": 9985,
+			"wrapS": 10497,
+			"wrapT": 10497
+		}
+	],
+	"scenes": [
+		{
+			"name":"defaultScene",
+			"nodes": [
+				0
+			]
+		}
+	],
+	"scene": 0,
+	"textures": [
+		{
+			"sampler": 0,
+			"source": 0
+		},
+		{
+			"sampler": 0,
+			"source": 1
+		},
+		{
+			"sampler": 0,
+			"source": 2
+		},
+		{
+			"sampler": 0,
+			"source": 3
+		}
+	]
+}

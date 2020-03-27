@@ -4,13 +4,22 @@ ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
+    100002: Museum_Tree_02_a
+    100004: Museum_Tree_02_Collider
     400000: //RootNode
+    400002: Museum_Tree_02_a
+    400004: Museum_Tree_02_Collider
     2100000: phong3
     2100002: phong1
     2300000: //RootNode
+    2300002: Museum_Tree_02_a
+    2300004: Museum_Tree_02_Collider
     3300000: //RootNode
+    3300002: Museum_Tree_02_a
+    3300004: Museum_Tree_02_Collider
     4300000: Museum_Tree_02
     4300002: Museum_Tree_02_a
+    4300004: Museum_Tree_02_Collider
   externalObjects: {}
   materials:
     importMaterials: 0
