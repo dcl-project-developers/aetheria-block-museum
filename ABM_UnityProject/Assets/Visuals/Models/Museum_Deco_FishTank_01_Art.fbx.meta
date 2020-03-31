@@ -1,46 +1,40 @@
 fileFormatVersion: 2
-guid: a06e3e19d156c4043a406aa279ae2e84
+guid: 2f8040dcf0ea6ed48a25c767841c9ab1
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: mesh_bench_01
-    100002: mesh_bench_02
-    100004: mesh_bench_03
-    100006: mesh_bench_04
-    100008: //RootNode
-    400000: mesh_bench_01
-    400002: mesh_bench_02
-    400004: mesh_bench_03
-    400006: mesh_bench_04
-    400008: //RootNode
-    2100000: holographic
-    2100002: dark_light
-    2100004: dark_floorlighter_tone
-    2100006: dark_floor_mid_tone
-    2100008: dark_floor_base
-    2100010: dark_screen_02
-    2100012: dark_light15
-    2100014: dark_floorlighter_tone9
-    2100016: dark_floor_mid_tone13
-    2100018: dark_floor_base13
-    2100020: dark_screen_07
-    2300000: mesh_bench_01
-    2300002: mesh_bench_02
-    2300004: mesh_bench_03
-    2300006: mesh_bench_04
-    2300008: //RootNode
-    3300000: mesh_bench_01
-    3300002: mesh_bench_02
-    3300004: mesh_bench_03
-    3300006: mesh_bench_04
-    3300008: //RootNode
-    4300000: mesh_bench_01
-    4300002: mesh_bench_02
-    4300004: mesh_bench_03
-    4300006: mesh_bench_04
+    100000: //RootNode
+    400000: //RootNode
+    2100000: mats2_dark_tree
+    2100002: mats2_dark_screen_02
+    2100004: hologram
+    2100006: mats2_dark_light
+    2100008: mats2_dark_floor_base
+    2100010: mats2_dark_floor_mid_tone
+    2100012: mats2_dark_floorlighter_tone
+    2100014: mats2_dark_screens_01
+    2100016: mats2_dark_tree2
+    2100018: mats2_dark_screen_13
+    2100020: hologram13
+    2100022: mats2_dark_light16
+    2100024: mats2_dark_floor_base16
+    2100026: mats2_dark_floor_mid_tone16
+    2100028: mats2_dark_floorlighter_tone16
+    2100030: mats2_dark_screens_08
+    2100032: phong1
+    2100034: Trans_Tileset
+    2100036: Tileset_02
+    2100038: Trans
+    2100040: Emissive
+    2100042: Emissive_2
+    2100044: Tileset_03
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Mesh_fish_tank_01
+    4300002: Museum_Deco_FishTank_01
   externalObjects: {}
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 1

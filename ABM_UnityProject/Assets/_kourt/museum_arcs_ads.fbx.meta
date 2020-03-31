@@ -11,6 +11,28 @@ ModelImporter:
     100010: arcs_entrance_01_6
     100012: arcs_entrance_01_7
     100014: //RootNode
+    100016: Museum_Expo_Area_Arc_01_Collider
+    100018: arcs_entrance2
+    100020: decio
+    100022: exhibit_zoom_01_1
+    100024: Holder_text
+    100026: Holder_text_02
+    100028: Lamp_01
+    100030: Lamp_01_Fade
+    100032: mesh_bench_03
+    100034: Mesh_fish_tank_01
+    100036: Mesh_information_Desktop_01
+    100038: mesh_screen_information_floor_01
+    100040: mesh_turbine_01
+    100042: Museum_Expo_Area_Arc_01
+    100044: prop_environment_01
+    100046: prop_environment_02
+    100048: prop_environment_03
+    100050: prop_environment_04
+    100052: prop_environment_05
+    100054: stand_exhibit_01_2
+    100056: text_display
+    100058: Museum_Expo_Area_Entry_01_Collider
     400000: arcs_entrance_01_1
     400002: arcs_entrance_01_2
     400004: arcs_entrance_01_3
@@ -19,6 +41,28 @@ ModelImporter:
     400010: arcs_entrance_01_6
     400012: arcs_entrance_01_7
     400014: //RootNode
+    400016: Museum_Expo_Area_Arc_01_Collider
+    400018: arcs_entrance2
+    400020: decio
+    400022: exhibit_zoom_01_1
+    400024: Holder_text
+    400026: Holder_text_02
+    400028: Lamp_01
+    400030: Lamp_01_Fade
+    400032: mesh_bench_03
+    400034: Mesh_fish_tank_01
+    400036: Mesh_information_Desktop_01
+    400038: mesh_screen_information_floor_01
+    400040: mesh_turbine_01
+    400042: Museum_Expo_Area_Arc_01
+    400044: prop_environment_01
+    400046: prop_environment_02
+    400048: prop_environment_03
+    400050: prop_environment_04
+    400052: prop_environment_05
+    400054: stand_exhibit_01_2
+    400056: text_display
+    400058: Museum_Expo_Area_Entry_01_Collider
     2100000: dark_screen_02
     2100002: mat_text
     2100004: dark_screens_01
@@ -33,6 +77,12 @@ ModelImporter:
     2100022: dark_floor_base11
     2100024: dark_screens_02
     2100026: dark_screen_05
+    2100028: Tileset_02
+    2100030: Tileset_03
+    2100032: Trans
+    2100034: Emissive
+    2100036: Trans_Tileset
+    2100038: phong1
     2300000: arcs_entrance_01_1
     2300002: arcs_entrance_01_2
     2300004: arcs_entrance_01_3
@@ -41,6 +91,27 @@ ModelImporter:
     2300010: arcs_entrance_01_6
     2300012: arcs_entrance_01_7
     2300014: //RootNode
+    2300016: Museum_Expo_Area_Arc_01_Collider
+    2300018: decio
+    2300020: exhibit_zoom_01_1
+    2300022: Holder_text
+    2300024: Holder_text_02
+    2300026: Lamp_01
+    2300028: Lamp_01_Fade
+    2300030: mesh_bench_03
+    2300032: Mesh_fish_tank_01
+    2300034: Mesh_information_Desktop_01
+    2300036: mesh_screen_information_floor_01
+    2300038: mesh_turbine_01
+    2300040: Museum_Expo_Area_Arc_01
+    2300042: prop_environment_01
+    2300044: prop_environment_02
+    2300046: prop_environment_03
+    2300048: prop_environment_04
+    2300050: prop_environment_05
+    2300052: stand_exhibit_01_2
+    2300054: text_display
+    2300056: Museum_Expo_Area_Entry_01_Collider
     3300000: arcs_entrance_01_1
     3300002: arcs_entrance_01_2
     3300004: arcs_entrance_01_3
@@ -49,6 +120,27 @@ ModelImporter:
     3300010: arcs_entrance_01_6
     3300012: arcs_entrance_01_7
     3300014: //RootNode
+    3300016: Museum_Expo_Area_Arc_01_Collider
+    3300018: decio
+    3300020: exhibit_zoom_01_1
+    3300022: Holder_text
+    3300024: Holder_text_02
+    3300026: Lamp_01
+    3300028: Lamp_01_Fade
+    3300030: mesh_bench_03
+    3300032: Mesh_fish_tank_01
+    3300034: Mesh_information_Desktop_01
+    3300036: mesh_screen_information_floor_01
+    3300038: mesh_turbine_01
+    3300040: Museum_Expo_Area_Arc_01
+    3300042: prop_environment_01
+    3300044: prop_environment_02
+    3300046: prop_environment_03
+    3300048: prop_environment_04
+    3300050: prop_environment_05
+    3300052: stand_exhibit_01_2
+    3300054: text_display
+    3300056: Museum_Expo_Area_Entry_01_Collider
     4300000: arcs_entrance_01_6
     4300002: arcs_entrance_01_1
     4300004: arcs_entrance_01_2
@@ -57,9 +149,31 @@ ModelImporter:
     4300010: arcs_entrance_01_7
     4300012: arcs_entrance_01_5
     4300014: arcs_entrance1
+    4300016: Museum_Expo_Area_Arc_01
+    4300018: Museum_Expo_Area_Arc_01_Collider
+    4300020: mesh_turbine_01
+    4300022: mesh_screen_information_floor_01
+    4300024: Mesh_information_Desktop_01
+    4300026: Mesh_fish_tank_01
+    4300028: Lamp_01
+    4300030: Lamp_01_Fade
+    4300032: stand_exhibit_01_2
+    4300034: Holder_text
+    4300036: Holder_text_02
+    4300038: exhibit_zoom_01_1
+    4300040: text_display
+    4300042: mesh_bench_03
+    4300044: prop_environment_01
+    4300046: prop_environment_02
+    4300048: prop_environment_03
+    4300050: prop_environment_04
+    4300052: prop_environment_05
+    4300054: decio
+    4300056: Museum_Expo_Area_Entry_01
+    4300058: Museum_Expo_Area_Entry_01_Collider
   externalObjects: {}
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 1
