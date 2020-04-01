@@ -1,32 +1,54 @@
 fileFormatVersion: 2
-guid: 2f8040dcf0ea6ed48a25c767841c9ab1
+guid: d0afb5dc63d670c4ca5032d09efef0f1
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
+    100002: mesh_screen_information_floor_01
+    100004: pCube1
+    100006: pPlane1
+    100008: pPlane5
+    100010: pPlane6
+    100012: screen_information_floor
+    100014: transform1
+    100016: transform2
+    100018: transform3
+    100020: transform4
     400000: //RootNode
-    2100000: mats2_dark_tree
-    2100002: mats2_dark_screen_02
-    2100004: hologram
-    2100006: mats2_dark_light
-    2100008: mats2_dark_floor_base
-    2100010: mats2_dark_floor_mid_tone
-    2100012: mats2_dark_floorlighter_tone
-    2100014: mats2_dark_screens_01
-    2100016: mats2_dark_tree2
-    2100018: mats2_dark_screen_13
-    2100020: hologram13
-    2100022: mats2_dark_light16
-    2100024: mats2_dark_floor_base16
-    2100026: mats2_dark_floor_mid_tone16
-    2100028: mats2_dark_floorlighter_tone16
-    2100030: mats2_dark_screens_08
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: Mesh_fish_tank_01
+    400002: mesh_screen_information_floor_01
+    400004: pCube1
+    400006: pPlane1
+    400008: pPlane5
+    400010: pPlane6
+    400012: screen_information_floor
+    400014: transform1
+    400016: transform2
+    400018: transform3
+    400020: transform4
+    2100000: mats2_dark_screen_02
+    2100002: mats2_dark_floor_base
+    2100004: mats2_dark_floorlighter_tone
+    2100006: mats2_dark_floor_mid_tone
+    2100008: mats2_dark_light
+    2100010: hologram
+    2100012: mats2_dark_screen_11
+    2100014: mats2_dark_floor_base13
+    2100016: mats2_dark_floorlighter_tone13
+    2100018: mats2_dark_floor_mid_tone13
+    2100020: mats2_dark_light13
+    2100022: hologram11
+    2100024: Tileset_02
+    2100026: Tileset_03
+    2100028: Trans_Tileset
+    2300000: mesh_screen_information_floor_01
+    2300002: //RootNode
+    3300000: mesh_screen_information_floor_01
+    3300002: //RootNode
+    4300000: mesh_screen_information_floor_01
+    4300002: Museum_Deco_InfoScreen_01
   externalObjects: {}
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 1

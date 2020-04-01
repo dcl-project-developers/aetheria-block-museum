@@ -6,4 +6,6 @@ public class nft_script : MonoBehaviour
 {
     public string smartContract;
     public string tokenId;
+    public string title;
+    public string description;
 }

@@ -17,18 +17,26 @@ ModelImporter:
     2100006: mats2_dark_floorlighter_tone
     2100008: mats2_dark_floor_mid_tone
     2100010: mats2_dark_light
+    2100012: Trans
+    2100014: Emissive_2
+    2100016: Tileset_03
+    2100018: Tileset_02
+    2100020: Emissive
     2300000: trashcan_01_1
     2300002: trashcan_01_2
     2300004: trashcan_01_3
+    2300006: //RootNode
     3300000: trashcan_01_1
     3300002: trashcan_01_2
     3300004: trashcan_01_3
+    3300006: //RootNode
     4300000: trashcan_01_1
     4300002: trashcan_01_2
     4300004: trashcan_01_3
+    4300006: Museum_Deco_Trashcan_01
   externalObjects: {}
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 1

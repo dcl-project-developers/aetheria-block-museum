@@ -7,10 +7,12 @@ ModelImporter:
     100002: lamp_01
     100004: lamp_02
     100006: Lamp_01_Fade
+    100008: Museum_Deco_Lamp_01_Fade
     400000: //RootNode
     400002: lamp_01
     400004: lamp_02
     400006: Lamp_01_Fade
+    400008: Museum_Deco_Lamp_01_Fade
     2100000: hologram
     2100002: mats2_dark_floor_mid_tone
     2100004: mats2_dark_floor_base
@@ -23,21 +25,29 @@ ModelImporter:
     2100018: mats2_dark_floorlighter_tone14
     2100020: mats2_dark_light14
     2100022: hologram12
+    2100024: Tileset_02
+    2100026: Tileset_03
+    2100028: Emissive
+    2100030: Trans_Tileset
     2300000: lamp_01
     2300002: lamp_02
     2300004: //RootNode
     2300006: Lamp_01_Fade
+    2300008: Museum_Deco_Lamp_01_Fade
     3300000: lamp_01
     3300002: lamp_02
     3300004: //RootNode
     3300006: Lamp_01_Fade
+    3300008: Museum_Deco_Lamp_01_Fade
     4300000: lamp_02
     4300002: lamp_01
     4300004: Lamp_01
     4300006: Lamp_01_Fade
+    4300008: Museum_Deco_Lamp_01
+    4300010: Museum_Deco_Lamp_01_Fade
   externalObjects: {}
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 1

@@ -15,12 +15,20 @@ ModelImporter:
     2100014: mats2_dark_floorlighter_tone15
     2100016: mats2_dark_light15
     2100018: mats2_dark_floor_mid_tone15
+    2100020: Tileset_03
+    2100022: phong1
+    2100024: Emissive
+    2100026: Emissive_2
+    2100028: Tileset_02
+    2100030: Trans
+    2100032: Trans_Tileset
     2300000: //RootNode
     3300000: //RootNode
     4300000: Mesh_information_Desktop_01
+    4300002: Museum_SignBook_01
   externalObjects: {}
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 1
