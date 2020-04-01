@@ -12,5 +12,7 @@ export class NFTdata{
     this.tokenId = tokenId
     const shapeComponent = new NFTShape('ethereum://'+smartContract+'/'+tokenId,Color3.Blue())
     entity.addComponent(shapeComponent)
+    this.title = title
+    this.description = description
   }
 }
