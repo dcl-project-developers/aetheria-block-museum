@@ -285,16 +285,6 @@ engine.addSystem(new AutoPlayUnityAudio())
 
                 exportStr.AppendFormat(NewEntityWithName, entityName, tra.name);
 
-                nft_script nftObject = (tra.gameObject.GetComponent("nft_script") as nft_script);
-                if (nftObject)
-                {
-                    if (resourceRecorder.importedModules.IndexOf("NFTdata") < 0)
-                    {
-                        resourceRecorder.importedModules.Add("NFTdata");
-                    }
-                    exportStr.AppendFormat(SetNFT, entityName, nftObject.smartContract, nftObject.tokenId, nftObject.title, nftObject.description);
-                    exportStr.AppendFormat(AddEntity, entityName);
-                }
 
                 Path_follower_script pathFollower = (tra.gameObject.GetComponent("Path_follower_script") as Path_follower_script);
                 if (pathFollower)
@@ -359,6 +349,17 @@ engine.addSystem(new AutoPlayUnityAudio())
                         resourceRecorder.importedModules.Add("ElevatorButton");
                     }
                     exportStr.AppendFormat(SetElevatorButton, entityName, elevatorButtonObject.floor, elevatorButtonObject.elevator.name);
+                }
+
+                nft_script nftObject = (tra.gameObject.GetComponent("nft_script") as nft_script);
+                if (nftObject)
+                {
+                    if (resourceRecorder.importedModules.IndexOf("NFTdata") < 0)
+                    {
+                        resourceRecorder.importedModules.Add("NFTdata");
+                    }
+                    exportStr.AppendFormat(SetNFT, entityName, nftObject.smartContract, nftObject.tokenId, nftObject.title, nftObject.description);
+                    exportStr.AppendFormat(AddEntity, entityName);
                 }
 
             }
