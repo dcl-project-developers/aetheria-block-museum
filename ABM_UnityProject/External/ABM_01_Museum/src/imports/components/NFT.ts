@@ -99,7 +99,7 @@ export class NFTdata{
     getNFTHUD()
   }
   createTrigger(){
-    let triggerBox = new utils.TriggerBoxShape(new Vector3(3,3,3), new Vector3(0,0,0))
+    let triggerBox = new utils.TriggerBoxShape(new Vector3(10,3,10), new Vector3(0,0,0))
     //create trigger for entity
     let trigger = new utils.TriggerComponent(
        triggerBox, //shape
@@ -116,13 +116,28 @@ export class NFTdata{
     triggerEntity.addComponent(trigger)
     engine.addEntity(triggerEntity)
     let self = this
-    trigger.onCameraEnter = function(){
+    /*trigger.onCameraEnter = function(){
       var hud = getNFTHUD()
       if (hud.currentNFT!=self) {
         hud.setNFTdata(self)
       }
       hud.show(true)
-    }
+    }*/
+    this.entity.addComponent(new OnPointerDown(
+        function() {
+          var hud = getNFTHUD()
+          if (hud.currentNFT!=self) {
+            hud.setNFTdata(self)
+            hud.show(true)
+          }
+          else hud.show(!hud.container.visible)
+        },
+        {
+          button: ActionButton.POINTER,
+          hoverText: "More info",
+          distance: 5
+        }
+    ))
 
     trigger.onCameraExit = function(){
       var hud = getNFTHUD()
