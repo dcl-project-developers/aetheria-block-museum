@@ -4,7 +4,9 @@ ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
+    100002: Museum_Deco_Turbine_01_Collider
     400000: //RootNode
+    400002: Museum_Deco_Turbine_01_Collider
     2100000: hologram
     2100002: mats2_dark_floorlighter_tone
     2100004: mats2_dark_floor_base
@@ -22,9 +24,12 @@ ModelImporter:
     2100028: Emissive
     2100030: Tileset_02
     2300000: //RootNode
+    2300002: Museum_Deco_Turbine_01_Collider
     3300000: //RootNode
+    3300002: Museum_Deco_Turbine_01_Collider
     4300000: mesh_turbine_01
     4300002: Museum_Deco_Turbine_01
+    4300004: Museum_Deco_Turbine_01_Collider
   externalObjects: {}
   materials:
     importMaterials: 0

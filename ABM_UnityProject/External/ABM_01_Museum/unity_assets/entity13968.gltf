@@ -1,0 +1,479 @@
+{
+	"asset": {
+		"generator": "Unity 2018.3.6f1",
+		"extras": {
+			"exporterVersion" : "2.2.1"
+		},
+		"version": "2.0"
+	},
+	"accessors": [
+		{
+			"bufferView": 2,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 602,
+			"max": [ 1.077097, 0.689527, 0.4187961 ],
+			"min": [ -1.077091, -0.05361023, -1.436903 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 7224,
+			"componentType": 5126,
+			"count": 602,
+			"max": [ 0.9993151, 0.9636049, 0.9998531 ],
+			"min": [ -0.9993149, -1, -0.9984885 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 1,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 602,
+			"max": [ 1.623653, 0.9741386 ],
+			"min": [ 0.0144279, 0.04799682 ],
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 602,
+			"max": [ 1, 0.4972882, 0.9999986, 1 ],
+			"min": [ -1, -0.4973315, -1, -1 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 0,
+			"componentType": 5123,
+			"count": 306,
+			"max": [ 154 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 612,
+			"componentType": 5123,
+			"count": 54,
+			"max": [ 185 ],
+			"min": [ 155 ],
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 720,
+			"componentType": 5123,
+			"count": 684,
+			"max": [ 601 ],
+			"min": [ 186 ],
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 14448,
+			"componentType": 5126,
+			"count": 254,
+			"max": [ 0.5801831, 0.08531921, -1.612773 ],
+			"min": [ -0.5801929, -0.06956756, -2.635967 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 17496,
+			"componentType": 5126,
+			"count": 254,
+			"max": [ 0.8799063, 0.9998583, 0.9998531 ],
+			"min": [ -1, -0.9998535, -0.9994491 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 1,
+			"byteOffset": 4816,
+			"componentType": 5126,
+			"count": 254,
+			"max": [ 1.669896, 0.9678689 ],
+			"min": [ -0.003933221, 0 ],
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 9632,
+			"componentType": 5126,
+			"count": 254,
+			"max": [ 1, 0.7277281, 0.9998583, 1 ],
+			"min": [ -0.9998332, -0.7508695, -0.9998535, 1 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 2088,
+			"componentType": 5123,
+			"count": 216,
+			"max": [ 84 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 2520,
+			"componentType": 5123,
+			"count": 144,
+			"max": [ 180 ],
+			"min": [ 85 ],
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 2808,
+			"componentType": 5123,
+			"count": 180,
+			"max": [ 253 ],
+			"min": [ 181 ],
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 20544,
+			"componentType": 5126,
+			"count": 76,
+			"max": [ 1.119183, 0.6880167, 0.4502958 ],
+			"min": [ -1.119183, -0.05361023, -2.689804 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 21456,
+			"componentType": 5126,
+			"count": 76,
+			"max": [ 0.8660254, 1, 1 ],
+			"min": [ -0.8660255, -1, -1 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 1,
+			"byteOffset": 6848,
+			"componentType": 5126,
+			"count": 76,
+			"max": [ 0.65625, 0.9790665 ],
+			"min": [ 0.34375, 0.02093351 ],
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 13696,
+			"componentType": 5126,
+			"count": 76,
+			"max": [ 1, 0.1971211, 0.8660255, 1 ],
+			"min": [ -1, -0.1971211, -0.8660254, 1 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 3168,
+			"componentType": 5123,
+			"count": 144,
+			"max": [ 75 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		}
+	],
+	"buffers": [
+		{
+			"byteLength": 48192,
+			"uri": "entity13968.bin"
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 3456,
+			"target": 34963,
+			"byteOffset": 44736
+		},
+		{
+			"buffer": 0,
+			"byteLength": 7456,
+			"target": 34962,
+			"byteStride": 8,
+			"byteOffset": 0
+		},
+		{
+			"buffer": 0,
+			"byteLength": 22368,
+			"target": 34962,
+			"byteStride": 12,
+			"byteOffset": 7456
+		},
+		{
+			"buffer": 0,
+			"byteLength": 14912,
+			"target": 34962,
+			"byteStride": 16,
+			"byteOffset": 29824
+		}
+	],
+	"images": [
+		{
+			"uri": "Assets/Visuals/Materials/Textures/Tileset_Metal_02_Albedo.jpg"
+		},
+		{
+			"uri": "Assets/Visuals/Materials/Textures/Tileset_Metal_02_Metallic_converted_metalRoughness.jpg"
+		},
+		{
+			"uri": "Assets/Visuals/Materials/Textures/Tileset_Metal_02_Normal.jpg"
+		},
+		{
+			"uri": "Assets/Visuals/Materials/Textures/Tileset_Metal_02_Metallic.jpg"
+		},
+		{
+			"uri": "Assets/Visuals/Materials/Textures/Tileset_Metal_03_Albedo.jpg"
+		},
+		{
+			"uri": "Assets/Visuals/Materials/Textures/Tileset_Metal_03_Metallic_converted_metalRoughness.jpg"
+		},
+		{
+			"uri": "Assets/Visuals/Materials/Textures/Tileset_Metal_03_Normal.jpg"
+		}
+	],
+	"materials": [
+		{
+			"pbrMetallicRoughness": {
+				"baseColorFactor": [1, 0.4039216, 0.4941177, 1],
+				"metallicFactor": 0,
+				"roughnessFactor": 0.5
+			},
+			"emissiveFactor": [1, 0.1356334, 0.2086369],
+			"doubleSided": false,
+			"name": "Tileset_Emissive_02_Mat"
+		},
+		{
+			"pbrMetallicRoughness": {
+				"baseColorTexture" : {
+					"index" : 0,
+					"texCoord" : 0
+				},
+				"baseColorFactor": [1, 1, 1, 1],
+				"metallicRoughnessTexture" : {
+					"index" : 1,
+					"texCoord" : 0
+				},
+				"metallicFactor": 1,
+				"roughnessFactor": 1
+			},
+			"normalTexture" : {
+				"index" : 2,
+				"texCoord" : 0,
+				"scale" : 1
+			},
+			"emissiveFactor": [0, 0, 0],
+			"occlusionTexture" : {
+				"index" : 3,
+				"texCoord" : 0,
+				"strength" : 1
+			},
+			"doubleSided": false,
+			"name": "Tileset_Metal_02_Mat"
+		},
+		{
+			"pbrMetallicRoughness": {
+				"baseColorTexture" : {
+					"index" : 4,
+					"texCoord" : 0
+				},
+				"baseColorFactor": [1, 1, 1, 1],
+				"metallicRoughnessTexture" : {
+					"index" : 5,
+					"texCoord" : 0
+				},
+				"metallicFactor": 1,
+				"roughnessFactor": 1
+			},
+			"normalTexture" : {
+				"index" : 6,
+				"texCoord" : 0,
+				"scale" : 1
+			},
+			"emissiveFactor": [0, 0, 0],
+			"doubleSided": false,
+			"name": "Tileset_Metal_03_Mat"
+		},
+		{
+			"pbrMetallicRoughness": {
+				"baseColorFactor": [0.2036906, 1, 0, 1],
+				"metallicFactor": 0,
+				"roughnessFactor": 0.5
+			},
+			"emissiveFactor": [0, 0, 0],
+			"doubleSided": false,
+			"name": "Collider_Mat"
+		}
+	],
+	"meshes": [
+		{
+			"name": "mesh_Stand_exhibit_01_2_19504Stand_exhibit_01",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": 0,
+						"NORMAL": 1,
+						"TEXCOORD_0": 2,
+						"TANGENT": 3
+					},
+					"indices": 4,
+					"material": 0,
+					"mode": 4
+				},
+				{
+					"attributes": {
+						"POSITION": 0,
+						"NORMAL": 1,
+						"TEXCOORD_0": 2,
+						"TANGENT": 3
+					},
+					"indices": 5,
+					"material": 1,
+					"mode": 4
+				},
+				{
+					"attributes": {
+						"POSITION": 0,
+						"NORMAL": 1,
+						"TEXCOORD_0": 2,
+						"TANGENT": 3
+					},
+					"indices": 6,
+					"material": 2,
+					"mode": 4
+				}
+			]
+		},
+		{
+			"name": "mesh_exhibit_zoom_01_1_10168exhibit_zoom_01_1",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": 7,
+						"NORMAL": 8,
+						"TEXCOORD_0": 9,
+						"TANGENT": 10
+					},
+					"indices": 11,
+					"material": 1,
+					"mode": 4
+				},
+				{
+					"attributes": {
+						"POSITION": 7,
+						"NORMAL": 8,
+						"TEXCOORD_0": 9,
+						"TANGENT": 10
+					},
+					"indices": 12,
+					"material": 0,
+					"mode": 4
+				},
+				{
+					"attributes": {
+						"POSITION": 7,
+						"NORMAL": 8,
+						"TEXCOORD_0": 9,
+						"TANGENT": 10
+					},
+					"indices": 13,
+					"material": 2,
+					"mode": 4
+				}
+			]
+		},
+		{
+			"name": "mesh_Stand_exhibit_01_2_Collider_19506Stand_exhibit_01_2_Collider",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": 14,
+						"NORMAL": 15,
+						"TEXCOORD_0": 16,
+						"TANGENT": 17
+					},
+					"indices": 18,
+					"material": 3,
+					"mode": 4
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"name": "UnityGlTF_root",
+			"children": [
+				1
+			]
+		},
+		{
+			"name": "node_Stand_exhibit_01",
+			"mesh": 0,
+			"children": [
+				2,
+				3
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		{
+			"name": "node_exhibit_zoom_01_1",
+			"mesh": 1
+		},
+		{
+			"name": "node_Stand_exhibit_01_2_Collider",
+			"mesh": 2
+		}
+	],
+	"samplers": [
+		{
+			"magFilter": 9729,
+			"minFilter": 9985,
+			"wrapS": 10497,
+			"wrapT": 10497
+		}
+	],
+	"scenes": [
+		{
+			"name":"defaultScene",
+			"nodes": [
+				0
+			]
+		}
+	],
+	"scene": 0,
+	"textures": [
+		{
+			"sampler": 0,
+			"source": 0
+		},
+		{
+			"sampler": 0,
+			"source": 1
+		},
+		{
+			"sampler": 0,
+			"source": 2
+		},
+		{
+			"sampler": 0,
+			"source": 3
+		},
+		{
+			"sampler": 0,
+			"source": 4
+		},
+		{
+			"sampler": 0,
+			"source": 5
+		},
+		{
+			"sampler": 0,
+			"source": 6
+		}
+	]
+}
