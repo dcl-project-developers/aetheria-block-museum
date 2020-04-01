@@ -116,13 +116,6 @@ export class NFTdata{
     triggerEntity.addComponent(trigger)
     engine.addEntity(triggerEntity)
     let self = this
-    /*trigger.onCameraEnter = function(){
-      var hud = getNFTHUD()
-      if (hud.currentNFT!=self) {
-        hud.setNFTdata(self)
-      }
-      hud.show(true)
-    }*/
     this.entity.addComponent(new OnPointerDown(
         function() {
           var hud = getNFTHUD()
