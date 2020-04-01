@@ -4,12 +4,22 @@ ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
+    100002: Museum_Ad_Projector_01_a
+    100004: Museum_Ad_Projector_01_b
     400000: //RootNode
+    400002: Museum_Ad_Projector_01_a
+    400004: Museum_Ad_Projector_01_b
     2100000: phong1
     2100002: Walled
     2300000: //RootNode
+    2300002: Museum_Ad_Projector_01_a
+    2300004: Museum_Ad_Projector_01_b
     3300000: //RootNode
+    3300002: Museum_Ad_Projector_01_a
+    3300004: Museum_Ad_Projector_01_b
     4300000: Museum_Ad_Projector_01
+    4300002: Museum_Ad_Projector_01_a
+    4300004: Museum_Ad_Projector_01_b
   externalObjects: {}
   materials:
     importMaterials: 0
