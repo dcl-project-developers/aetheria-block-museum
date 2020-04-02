@@ -358,7 +358,7 @@ engine.addSystem(new AutoPlayUnityAudio())
                     {
                         resourceRecorder.importedModules.Add("NFTdata");
                     }
-                    exportStr.AppendFormat(SetNFT, entityName, nftObject.smartContract, nftObject.tokenId, nftObject.title, nftObject.description);
+                    exportStr.AppendFormat(SetNFT, entityName, nftObject.smartContract, nftObject.tokenId, nftObject.title, nftObject.autor, nftObject.description);
                     exportStr.AppendFormat(AddEntity, entityName);
                 }
 
@@ -610,7 +610,7 @@ engine.addSystem(new AutoPlayUnityAudio())
         private const string SetTrigger = "triggersInfo.push(new Trigger(new Vector3({0}, {1}, {2}), new Vector3({3}, {4}, {5}), {6}))\n";
         private const string SetElevatorButton = "{0}.addComponent(new ElevatorButton({0}, {1}, \"{2}\")) \n";
 
-        private const string SetNFT = "{0}.addComponent(new NFTdata({0}, \"{1}\", \"{2}\", \"{3}\", \"{4}\")) \n";
+        private const string SetNFT = "{0}.addComponent(new NFTdata({0}, \"{1}\", \"{2}\", \"{3}\", \"{4}\", \"{5}\")) \n";
 
         public static void ProcessMaterial(Transform tra, bool isOnOrUnderGLTF, string entityName,
             List<Material> materialsToExport, StringBuilder exportStr, SceneStatistics statistics)

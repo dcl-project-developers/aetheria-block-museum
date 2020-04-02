@@ -85,8 +85,9 @@ export class NFTdata{
   tokenId: string
   title: string
   description: string
+  autor: string
   bDebug: boolean
-  constructor(entity: IEntity, smartContract, tokenId, title?: string, description?: string){
+  constructor(entity: IEntity, smartContract, tokenId, title?: string, autor?: string, description?: string){
     this.entity = entity
     this.smartContract = smartContract
     this.tokenId = tokenId
@@ -94,6 +95,7 @@ export class NFTdata{
     entity.addComponent(shapeComponent)
     this.title = title
     this.description = description
+    this.autor = autor
     this.bDebug = true
     this.createTrigger()
     getNFTHUD()
