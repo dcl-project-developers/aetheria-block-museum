@@ -41,7 +41,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 136906991238545498}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 4300000, guid: 184dbfeb5fa34f04f96f6b724bc8c0d0, type: 3}
 --- !u!23 &7078983372380650894
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -119,6 +119,8 @@ GameObject:
   - component: {fileID: 6387709956034552205}
   - component: {fileID: 6387709956027354721}
   - component: {fileID: 8059982616925215391}
+  - component: {fileID: 5875576055856613645}
+  - component: {fileID: 559155986470475735}
   m_Layer: 0
   m_Name: museum_art_exhibit_NFT
   m_TagString: Untagged
@@ -178,6 +180,51 @@ MonoBehaviour:
   withCollision: 0
   m_primitiveType: 6
   dclNodeType: 9
+--- !u!33 &5875576055856613645
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6387709956034788781}
+  m_Mesh: {fileID: 4300028, guid: be25393f2ee116144a90a426b4716d07, type: 3}
+--- !u!23 &559155986470475735
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6387709956034788781}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
 --- !u!1 &8715256348674998426
 GameObject:
   m_ObjectHideFlags: 0
@@ -224,6 +271,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   smartContract: 
   tokenId: 
+  title: 
+  autor: 
+  description: 
 --- !u!114 &5991697359833590254
 MonoBehaviour:
   m_ObjectHideFlags: 0
