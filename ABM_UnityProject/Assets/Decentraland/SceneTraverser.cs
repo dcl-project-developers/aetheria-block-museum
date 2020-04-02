@@ -351,6 +351,17 @@ engine.addSystem(new AutoPlayUnityAudio())
                     exportStr.AppendFormat(SetElevatorButton, entityName, elevatorButtonObject.floor, elevatorButtonObject.elevator.name);
                 }
 
+                robot_script robotObject = (tra.gameObject.GetComponent("robot_script") as robot_script);
+                if (robotObject)
+                {
+                    if (resourceRecorder.importedModules.IndexOf("Robot") < 0)
+                    {
+                        resourceRecorder.importedModules.Add("Robot");
+                    }
+                    exportStr.AppendFormat(SetRobot, entityName, robotObject.dialogIndex);
+                    //exportStr.AppendFormat(AddEntity, entityName);
+                }
+
                 nft_script nftObject = (tra.gameObject.GetComponent("nft_script") as nft_script);
                 if (nftObject)
                 {
@@ -359,7 +370,7 @@ engine.addSystem(new AutoPlayUnityAudio())
                         resourceRecorder.importedModules.Add("NFTdata");
                     }
                     exportStr.AppendFormat(SetNFT, entityName, nftObject.smartContract, nftObject.tokenId, nftObject.title, nftObject.autor, nftObject.description);
-                    exportStr.AppendFormat(AddEntity, entityName);
+                    //exportStr.AppendFormat(AddEntity, entityName);
                 }
 
             }
@@ -611,6 +622,7 @@ engine.addSystem(new AutoPlayUnityAudio())
         private const string SetElevatorButton = "{0}.addComponent(new ElevatorButton({0}, {1}, \"{2}\")) \n";
 
         private const string SetNFT = "{0}.addComponent(new NFTdata({0}, \"{1}\", \"{2}\", \"{3}\", \"{4}\", \"{5}\")) \n";
+        private const string SetRobot = "{0}.addComponent(new Robot({0}, {1})) \n";
 
         public static void ProcessMaterial(Transform tra, bool isOnOrUnderGLTF, string entityName,
             List<Material> materialsToExport, StringBuilder exportStr, SceneStatistics statistics)
