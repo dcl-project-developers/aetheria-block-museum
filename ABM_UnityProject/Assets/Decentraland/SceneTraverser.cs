@@ -371,6 +371,7 @@ engine.addSystem(new AutoPlayUnityAudio())
                     }
                     exportStr.AppendFormat(SetNFT, entityName, nftObject.smartContract, nftObject.tokenId, nftObject.title, nftObject.autor, nftObject.description);
                     //exportStr.AppendFormat(AddEntity, entityName);
+                    return;
                 }
 
             }
