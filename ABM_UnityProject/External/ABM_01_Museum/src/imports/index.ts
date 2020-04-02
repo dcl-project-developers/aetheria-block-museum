@@ -8,3 +8,4 @@ export { UpdateMovementComponentsSystem, UpdateToPlayerSystem, UpdateTimerWidget
 export { Widget, WidgetTalk, SkipMode, WidgetTextBox, TextProperties, WidgetTextTimmer } from "./widgets"
 export { PlatformComponent } from "./components/platforms"
 export { NFTdata } from "./components/NFT"
+export { Robot } from "./components/robot"
