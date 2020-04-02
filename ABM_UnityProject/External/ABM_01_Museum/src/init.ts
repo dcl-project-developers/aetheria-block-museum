@@ -22,7 +22,6 @@ function loadPathFollowers() {
 
     for (let i = 0; i < pathArray.length; i++) {
         if (pathArray[i].id==entity.getComponent(PathFollower).pathToFollow) {
-          console.log(entity.getComponent(PathFollower).bAutoActivate);
           if (entity.getComponent(PathFollower).bAutoActivate) {
               entity.addComponent(new FollowPathMoveComponent(MovementType.Simple, pathArray[i].pathPoints, entity, pathArray[i].pathGlobalSpeed, true, pathArray[i].onFinish, true))
               i = pathArray.length

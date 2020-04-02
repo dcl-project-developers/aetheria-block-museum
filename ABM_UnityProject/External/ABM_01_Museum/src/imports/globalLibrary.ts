@@ -8,6 +8,10 @@ function lerp (start: float, end: float, amt: float){
   return (1-amt)*start+amt*end
 }
 
+function clamp(num: number, min: number, max: number) {
+  return num <= min ? min : num >= max ? max : num;
+}
+
 function randomIntFromInterval(min: number, max: number) { // min and max included
   return Math.floor(Math.random() * (max - min + 1) + min);
 }
