@@ -4,7 +4,9 @@ ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
+    100002: Museum_Deco_FishTank_01_Collider
     400000: //RootNode
+    400002: Museum_Deco_FishTank_01_Collider
     2100000: mats2_dark_tree
     2100002: mats2_dark_screen_02
     2100004: hologram
@@ -29,9 +31,12 @@ ModelImporter:
     2100042: Emissive_2
     2100044: Tileset_03
     2300000: //RootNode
+    2300002: Museum_Deco_FishTank_01_Collider
     3300000: //RootNode
+    3300002: Museum_Deco_FishTank_01_Collider
     4300000: Mesh_fish_tank_01
     4300002: Museum_Deco_FishTank_01
+    4300004: Museum_Deco_FishTank_01_Collider
   externalObjects: {}
   materials:
     importMaterials: 0

@@ -5,17 +5,23 @@ ModelImporter:
   fileIDToRecycleName:
     100000: exhibit_zoom_01_1
     100002: //RootNode
+    100004: Stand_exhibit_01_2_Collider
     400000: exhibit_zoom_01_1
     400002: //RootNode
+    400004: Stand_exhibit_01_2_Collider
     2100000: emissive
     2100002: trim_01
     2100004: trim_02
     2300000: exhibit_zoom_01_1
     2300002: //RootNode
+    2300004: Stand_exhibit_01_2_Collider
     3300000: exhibit_zoom_01_1
     3300002: //RootNode
+    3300004: Stand_exhibit_01_2_Collider
     4300000: stand_exhibit_01_2
     4300002: exhibit_zoom_01_1
+    4300004: Stand_exhibit_01_2
+    4300006: Stand_exhibit_01_2_Collider
   externalObjects: {}
   materials:
     importMaterials: 0
