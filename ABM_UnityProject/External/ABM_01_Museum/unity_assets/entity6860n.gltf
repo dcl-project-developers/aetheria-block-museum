@@ -889,7 +889,7 @@
 			]
 		},
 		{
-			"name": "mesh_Museum_Hex_Roof_Piece_01_a_10358Museum_Hex_Roof_Piece_01_a",
+			"name": "mesh_Museum_Hex_Roof_Piece_01_a_10358Museum_Hex_Roof_Piece_01_a (0)",
 			"primitives": [
 				{
 					"attributes": {
@@ -954,7 +954,7 @@
 			]
 		},
 		{
-			"name": "mesh_Museum_Hex_Roof_Piece_01_a_10358Museum_Hex_Roof_Piece_01_a",
+			"name": "mesh_Museum_Hex_Roof_Piece_01_a_10358Museum_Hex_Roof_Piece_01_a (1)",
 			"primitives": [
 				{
 					"attributes": {
@@ -1019,7 +1019,7 @@
 			]
 		},
 		{
-			"name": "mesh_Museum_Hex_Roof_Piece_01_a_10358Museum_Hex_Roof_Piece_01_a",
+			"name": "mesh_Museum_Hex_Roof_Piece_01_a_10358Museum_Hex_Roof_Piece_01_a (2)",
 			"primitives": [
 				{
 					"attributes": {
@@ -1099,8 +1099,8 @@
 				3,
 				4,
 				6,
-				9,
-				12
+				8,
+				10
 			],
 			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
 		},
@@ -1126,17 +1126,11 @@
 		},
 		{
 			"name": "node_Museum_Hex_Roof_Piece_01_a (0)",
+			"mesh": 5,
 			"children": [
 				7
 			],
 			"rotation": [0, 0.4999998, 0, -0.8660256]
-		},
-		{
-			"name": "node_Museum_Hex_Roof_Piece_01_a",
-			"mesh": 5,
-			"children": [
-				8
-			]
 		},
 		{
 			"name": "node_Museum_Hex_Roof_Piece_01_Collider",
@@ -1144,17 +1138,11 @@
 		},
 		{
 			"name": "node_Museum_Hex_Roof_Piece_01_a (1)",
+			"mesh": 7,
 			"children": [
 				7
 			],
 			"rotation": [0, 0.8660247, 0, -0.5000012]
-		},
-		{
-			"name": "node_Museum_Hex_Roof_Piece_01_a",
-			"mesh": 7,
-			"children": [
-				8
-			]
 		},
 		{
 			"name": "node_Museum_Hex_Roof_Piece_01_Collider",
@@ -1162,17 +1150,11 @@
 		},
 		{
 			"name": "node_Museum_Hex_Roof_Piece_01_a (2)",
+			"mesh": 9,
 			"children": [
 				7
 			],
 			"rotation": [0, 0.8660269, 0, 0.4999974]
-		},
-		{
-			"name": "node_Museum_Hex_Roof_Piece_01_a",
-			"mesh": 9,
-			"children": [
-				8
-			]
 		},
 		{
 			"name": "node_Museum_Hex_Roof_Piece_01_Collider",

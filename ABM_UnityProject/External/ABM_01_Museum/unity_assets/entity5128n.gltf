@@ -339,275 +339,41 @@
 			"max": [ 23 ],
 			"min": [ 0 ],
 			"type": "SCALAR"
-		},
-		{
-			"bufferView": 2,
-			"byteOffset": 12816,
-			"componentType": 5126,
-			"count": 178,
-			"max": [ 3.516934, 5.838072, -2.02377 ],
-			"min": [ -3.516934, 0.8606984, -6.091523 ],
-			"type": "VEC3"
-		},
-		{
-			"bufferView": 2,
-			"byteOffset": 14952,
-			"componentType": 5126,
-			"count": 178,
-			"max": [ 1, 1, 1 ],
-			"min": [ -1, -0.9999988, -1 ],
-			"type": "VEC3"
-		},
-		{
-			"bufferView": 1,
-			"byteOffset": 4272,
-			"componentType": 5126,
-			"count": 178,
-			"max": [ 1.178092, 1.139914 ],
-			"min": [ -1.00259, 0.3521802 ],
-			"type": "VEC2"
-		},
-		{
-			"bufferView": 3,
-			"byteOffset": 8544,
-			"componentType": 5126,
-			"count": 178,
-			"max": [ 1, 0.2568241, 0.8660443, 1 ],
-			"min": [ -1, -1, -0.873719, -1 ],
-			"type": "VEC4"
-		},
-		{
-			"bufferView": 0,
-			"byteOffset": 1788,
-			"componentType": 5123,
-			"count": 84,
-			"max": [ 55 ],
-			"min": [ 0 ],
-			"type": "SCALAR"
-		},
-		{
-			"bufferView": 0,
-			"byteOffset": 1956,
-			"componentType": 5123,
-			"count": 120,
-			"max": [ 101 ],
-			"min": [ 56 ],
-			"type": "SCALAR"
-		},
-		{
-			"bufferView": 0,
-			"byteOffset": 2196,
-			"componentType": 5123,
-			"count": 84,
-			"max": [ 149 ],
-			"min": [ 102 ],
-			"type": "SCALAR"
-		},
-		{
-			"bufferView": 0,
-			"byteOffset": 2364,
-			"componentType": 5123,
-			"count": 42,
-			"max": [ 177 ],
-			"min": [ 150 ],
-			"type": "SCALAR"
-		},
-		{
-			"bufferView": 2,
-			"byteOffset": 17088,
-			"componentType": 5126,
-			"count": 178,
-			"max": [ 3.516934, 5.838072, -2.02377 ],
-			"min": [ -3.516934, 0.8606984, -6.091523 ],
-			"type": "VEC3"
-		},
-		{
-			"bufferView": 2,
-			"byteOffset": 19224,
-			"componentType": 5126,
-			"count": 178,
-			"max": [ 1, 1, 1 ],
-			"min": [ -1, -0.9999988, -1 ],
-			"type": "VEC3"
-		},
-		{
-			"bufferView": 1,
-			"byteOffset": 5696,
-			"componentType": 5126,
-			"count": 178,
-			"max": [ 1.178092, 1.139914 ],
-			"min": [ -1.00259, 0.3521803 ],
-			"type": "VEC2"
-		},
-		{
-			"bufferView": 3,
-			"byteOffset": 11392,
-			"componentType": 5126,
-			"count": 178,
-			"max": [ 1, 0.283114, 0.873719, 1 ],
-			"min": [ -1, -1, -0.8660281, -1 ],
-			"type": "VEC4"
-		},
-		{
-			"bufferView": 0,
-			"byteOffset": 2448,
-			"componentType": 5123,
-			"count": 330,
-			"max": [ 177 ],
-			"min": [ 0 ],
-			"type": "SCALAR"
-		},
-		{
-			"bufferView": 2,
-			"byteOffset": 21360,
-			"componentType": 5126,
-			"count": 178,
-			"max": [ 3.516934, 5.838072, -2.02377 ],
-			"min": [ -3.516934, 0.8606984, -6.091523 ],
-			"type": "VEC3"
-		},
-		{
-			"bufferView": 2,
-			"byteOffset": 23496,
-			"componentType": 5126,
-			"count": 178,
-			"max": [ 1, 1, 1 ],
-			"min": [ -1, -0.9999988, -1 ],
-			"type": "VEC3"
-		},
-		{
-			"bufferView": 1,
-			"byteOffset": 7120,
-			"componentType": 5126,
-			"count": 178,
-			"max": [ 1.178092, 1.139914 ],
-			"min": [ -1.00259, 0.3521802 ],
-			"type": "VEC2"
-		},
-		{
-			"bufferView": 3,
-			"byteOffset": 14240,
-			"componentType": 5126,
-			"count": 178,
-			"max": [ 1, 0.2568241, 0.8660443, 1 ],
-			"min": [ -1, -1, -0.873719, -1 ],
-			"type": "VEC4"
-		},
-		{
-			"bufferView": 0,
-			"byteOffset": 3108,
-			"componentType": 5123,
-			"count": 84,
-			"max": [ 55 ],
-			"min": [ 0 ],
-			"type": "SCALAR"
-		},
-		{
-			"bufferView": 0,
-			"byteOffset": 3276,
-			"componentType": 5123,
-			"count": 120,
-			"max": [ 101 ],
-			"min": [ 56 ],
-			"type": "SCALAR"
-		},
-		{
-			"bufferView": 0,
-			"byteOffset": 3516,
-			"componentType": 5123,
-			"count": 84,
-			"max": [ 149 ],
-			"min": [ 102 ],
-			"type": "SCALAR"
-		},
-		{
-			"bufferView": 0,
-			"byteOffset": 3684,
-			"componentType": 5123,
-			"count": 42,
-			"max": [ 177 ],
-			"min": [ 150 ],
-			"type": "SCALAR"
-		},
-		{
-			"bufferView": 2,
-			"byteOffset": 25632,
-			"componentType": 5126,
-			"count": 178,
-			"max": [ 3.516934, 5.838072, -2.02377 ],
-			"min": [ -3.516934, 0.8606984, -6.091523 ],
-			"type": "VEC3"
-		},
-		{
-			"bufferView": 2,
-			"byteOffset": 27768,
-			"componentType": 5126,
-			"count": 178,
-			"max": [ 1, 1, 1 ],
-			"min": [ -1, -0.9999988, -1 ],
-			"type": "VEC3"
-		},
-		{
-			"bufferView": 1,
-			"byteOffset": 8544,
-			"componentType": 5126,
-			"count": 178,
-			"max": [ 1.178092, 1.139914 ],
-			"min": [ -1.00259, 0.3521803 ],
-			"type": "VEC2"
-		},
-		{
-			"bufferView": 3,
-			"byteOffset": 17088,
-			"componentType": 5126,
-			"count": 178,
-			"max": [ 1, 0.283114, 0.873719, 1 ],
-			"min": [ -1, -1, -0.8660281, -1 ],
-			"type": "VEC4"
-		},
-		{
-			"bufferView": 0,
-			"byteOffset": 3768,
-			"componentType": 5123,
-			"count": 330,
-			"max": [ 177 ],
-			"min": [ 0 ],
-			"type": "SCALAR"
 		}
 	],
 	"buffers": [
 		{
-			"byteLength": 64236,
+			"byteLength": 27420,
 			"uri": "entity5128n.bin"
 		}
 	],
 	"bufferViews": [
 		{
 			"buffer": 0,
-			"byteLength": 4428,
+			"byteLength": 1788,
 			"target": 34963,
-			"byteOffset": 59808
+			"byteOffset": 25632
 		},
 		{
 			"buffer": 0,
-			"byteLength": 9968,
+			"byteLength": 4272,
 			"target": 34962,
 			"byteStride": 8,
 			"byteOffset": 0
 		},
 		{
 			"buffer": 0,
-			"byteLength": 29904,
+			"byteLength": 12816,
 			"target": 34962,
 			"byteStride": 12,
-			"byteOffset": 9968
+			"byteOffset": 4272
 		},
 		{
 			"buffer": 0,
-			"byteLength": 19936,
+			"byteLength": 8544,
 			"target": 34962,
 			"byteStride": 16,
-			"byteOffset": 39872
+			"byteOffset": 17088
 		}
 	],
 	"images": [
@@ -892,136 +658,6 @@
 					"mode": 4
 				}
 			]
-		},
-		{
-			"name": "mesh_Museum_Hex_Roof_Piece_01_b_10360Museum_Hex_Roof_Piece_01_b",
-			"primitives": [
-				{
-					"attributes": {
-						"POSITION": 37,
-						"NORMAL": 38,
-						"TEXCOORD_0": 39,
-						"TANGENT": 40
-					},
-					"indices": 41,
-					"material": 2,
-					"mode": 4
-				},
-				{
-					"attributes": {
-						"POSITION": 37,
-						"NORMAL": 38,
-						"TEXCOORD_0": 39,
-						"TANGENT": 40
-					},
-					"indices": 42,
-					"material": 4,
-					"mode": 4
-				},
-				{
-					"attributes": {
-						"POSITION": 37,
-						"NORMAL": 38,
-						"TEXCOORD_0": 39,
-						"TANGENT": 40
-					},
-					"indices": 43,
-					"material": 0,
-					"mode": 4
-				},
-				{
-					"attributes": {
-						"POSITION": 37,
-						"NORMAL": 38,
-						"TEXCOORD_0": 39,
-						"TANGENT": 40
-					},
-					"indices": 44,
-					"material": 0,
-					"mode": 4
-				}
-			]
-		},
-		{
-			"name": "mesh_Museum_Hex_Roof_Piece_01_Collider_10364Museum_Hex_Roof_Piece_01_Collider 1",
-			"primitives": [
-				{
-					"attributes": {
-						"POSITION": 45,
-						"NORMAL": 46,
-						"TEXCOORD_0": 47,
-						"TANGENT": 48
-					},
-					"indices": 49,
-					"material": 3,
-					"mode": 4
-				}
-			]
-		},
-		{
-			"name": "mesh_Museum_Hex_Roof_Piece_01_b_10360Museum_Hex_Roof_Piece_01_b",
-			"primitives": [
-				{
-					"attributes": {
-						"POSITION": 50,
-						"NORMAL": 51,
-						"TEXCOORD_0": 52,
-						"TANGENT": 53
-					},
-					"indices": 54,
-					"material": 2,
-					"mode": 4
-				},
-				{
-					"attributes": {
-						"POSITION": 50,
-						"NORMAL": 51,
-						"TEXCOORD_0": 52,
-						"TANGENT": 53
-					},
-					"indices": 55,
-					"material": 4,
-					"mode": 4
-				},
-				{
-					"attributes": {
-						"POSITION": 50,
-						"NORMAL": 51,
-						"TEXCOORD_0": 52,
-						"TANGENT": 53
-					},
-					"indices": 56,
-					"material": 0,
-					"mode": 4
-				},
-				{
-					"attributes": {
-						"POSITION": 50,
-						"NORMAL": 51,
-						"TEXCOORD_0": 52,
-						"TANGENT": 53
-					},
-					"indices": 57,
-					"material": 0,
-					"mode": 4
-				}
-			]
-		},
-		{
-			"name": "mesh_Museum_Hex_Roof_Piece_01_Collider_10364Museum_Hex_Roof_Piece_01_Collider 1",
-			"primitives": [
-				{
-					"attributes": {
-						"POSITION": 58,
-						"NORMAL": 59,
-						"TEXCOORD_0": 60,
-						"TANGENT": 61
-					},
-					"indices": 62,
-					"material": 3,
-					"mode": 4
-				}
-			]
 		}
 	],
 	"nodes": [
@@ -1038,9 +674,7 @@
 				2,
 				3,
 				4,
-				6,
-				8,
-				11
+				6
 			],
 			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
 		},
@@ -1076,42 +710,6 @@
 		{
 			"name": "node_Museum_Hex_Floor_Ramp_Collider",
 			"mesh": 6
-		},
-		{
-			"name": "node_Museum_Hex_Roof_Piece_01_b (0)",
-			"children": [
-				9
-			],
-			"rotation": [0, -0.5000001, 0, -0.8660254]
-		},
-		{
-			"name": "node_Museum_Hex_Roof_Piece_01_b",
-			"mesh": 7,
-			"children": [
-				10
-			]
-		},
-		{
-			"name": "node_Museum_Hex_Roof_Piece_01_Collider 1",
-			"mesh": 8
-		},
-		{
-			"name": "node_Museum_Hex_Roof_Piece_01_b (1)",
-			"children": [
-				9
-			],
-			"rotation": [0, -1, 0, -2.339482E-06]
-		},
-		{
-			"name": "node_Museum_Hex_Roof_Piece_01_b",
-			"mesh": 9,
-			"children": [
-				10
-			]
-		},
-		{
-			"name": "node_Museum_Hex_Roof_Piece_01_Collider 1",
-			"mesh": 10
 		}
 	],
 	"samplers": [

@@ -2170,6 +2170,18 @@
 			"uri": "Assets/Visuals/Materials/Textures/Ad_01_a_Albedo.jpg"
 		},
 		{
+			"uri": "Assets/Visuals/Materials/Textures/RobotGuide_01_Albedo.jpg"
+		},
+		{
+			"uri": "Assets/Visuals/Materials/Textures/RobotGuide_01_Metallic_converted_metalRoughness.jpg"
+		},
+		{
+			"uri": "Assets/Visuals/Materials/Textures/RobotGuide_01_Normal.jpg"
+		},
+		{
+			"uri": "Assets/Visuals/Materials/Textures/RobotGuide_01_Emissive.jpg"
+		},
+		{
 			"uri": "Assets/Visuals/Materials/Textures/Ad_01_b_Albedo.jpg"
 		},
 		{
@@ -2307,35 +2319,34 @@
 		{
 			"pbrMetallicRoughness": {
 				"baseColorTexture" : {
-					"index" : 3,
+					"index" : 11,
 					"texCoord" : 0
 				},
 				"baseColorFactor": [1, 1, 1, 1],
 				"metallicRoughnessTexture" : {
-					"index" : 4,
+					"index" : 12,
 					"texCoord" : 0
 				},
 				"metallicFactor": 1,
 				"roughnessFactor": 1
 			},
 			"normalTexture" : {
-				"index" : 5,
+				"index" : 13,
 				"texCoord" : 0,
 				"scale" : 1
 			},
-			"emissiveFactor": [0, 0, 0],
-			"occlusionTexture" : {
-				"index" : 7,
-				"texCoord" : 0,
-				"strength" : 1
+			"emissiveTexture" : {
+				"index" : 14,
+				"texCoord" : 0
 			},
+			"emissiveFactor": [1, 1, 1],
 			"doubleSided": false,
 			"name": "RobotGuide_01"
 		},
 		{
 			"pbrMetallicRoughness": {
 				"baseColorTexture" : {
-					"index" : 11,
+					"index" : 15,
 					"texCoord" : 0
 				},
 				"baseColorFactor": [1, 1, 1, 1],
@@ -2363,19 +2374,19 @@
 		{
 			"pbrMetallicRoughness": {
 				"baseColorTexture" : {
-					"index" : 12,
+					"index" : 16,
 					"texCoord" : 0
 				},
 				"baseColorFactor": [1, 1, 1, 1],
 				"metallicRoughnessTexture" : {
-					"index" : 13,
+					"index" : 17,
 					"texCoord" : 0
 				},
 				"metallicFactor": 1,
 				"roughnessFactor": 1
 			},
 			"normalTexture" : {
-				"index" : 14,
+				"index" : 18,
 				"texCoord" : 0,
 				"scale" : 1
 			},
@@ -3945,6 +3956,22 @@
 		{
 			"sampler": 0,
 			"source": 14
+		},
+		{
+			"sampler": 0,
+			"source": 15
+		},
+		{
+			"sampler": 0,
+			"source": 16
+		},
+		{
+			"sampler": 0,
+			"source": 17
+		},
+		{
+			"sampler": 0,
+			"source": 18
 		}
 	]
 }

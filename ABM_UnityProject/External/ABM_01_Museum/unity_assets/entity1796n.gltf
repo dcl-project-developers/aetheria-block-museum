@@ -1006,7 +1006,7 @@
 			]
 		},
 		{
-			"name": "mesh_Museum_Hex_Roof_Piece_01_b_10360Museum_Hex_Roof_Piece_01_b",
+			"name": "mesh_Museum_Hex_Roof_Piece_01_b_10360Museum_Hex_Roof_Piece_01_b (0)",
 			"primitives": [
 				{
 					"attributes": {
@@ -1055,7 +1055,7 @@
 			]
 		},
 		{
-			"name": "mesh_Museum_Hex_Roof_Piece_01_Collider_10364Museum_Hex_Roof_Piece_01_Collider 1",
+			"name": "mesh_Museum_Hex_Roof_Piece_01_Collider_10364Museum_Hex_Roof_Piece_01_Collider",
 			"primitives": [
 				{
 					"attributes": {
@@ -1071,7 +1071,7 @@
 			]
 		},
 		{
-			"name": "mesh_Museum_Hex_Roof_Piece_01_a_10358Museum_Hex_Roof_Piece_01_a",
+			"name": "mesh_Museum_Hex_Roof_Piece_01_a_10358Museum_Hex_Roof_Piece_01_a (0)",
 			"primitives": [
 				{
 					"attributes": {
@@ -1136,7 +1136,7 @@
 			]
 		},
 		{
-			"name": "mesh_Museum_Hex_Roof_Piece_01_a_10358Museum_Hex_Roof_Piece_01_a",
+			"name": "mesh_Museum_Hex_Roof_Piece_01_a_10358Museum_Hex_Roof_Piece_01_a (1)",
 			"primitives": [
 				{
 					"attributes": {
@@ -1201,7 +1201,7 @@
 			]
 		},
 		{
-			"name": "mesh_Museum_Hex_Roof_Piece_01_b_10360Museum_Hex_Roof_Piece_01_b",
+			"name": "mesh_Museum_Hex_Roof_Piece_01_b_10360Museum_Hex_Roof_Piece_01_b (1)",
 			"primitives": [
 				{
 					"attributes": {
@@ -1250,7 +1250,7 @@
 			]
 		},
 		{
-			"name": "mesh_Museum_Hex_Roof_Piece_01_Collider_10364Museum_Hex_Roof_Piece_01_Collider 1",
+			"name": "mesh_Museum_Hex_Roof_Piece_01_Collider_10364Museum_Hex_Roof_Piece_01_Collider",
 			"primitives": [
 				{
 					"attributes": {
@@ -1281,9 +1281,9 @@
 				3,
 				4,
 				6,
-				9,
-				12,
-				15
+				8,
+				10,
+				12
 			],
 			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
 		},
@@ -1310,33 +1310,21 @@
 		},
 		{
 			"name": "node_Museum_Hex_Roof_Piece_01_b (0)",
+			"mesh": 5,
 			"children": [
 				7
 			],
 			"rotation": [0, 0.4999992, 0, -0.8660259]
 		},
 		{
-			"name": "node_Museum_Hex_Roof_Piece_01_b",
-			"mesh": 5,
-			"children": [
-				8
-			]
-		},
-		{
-			"name": "node_Museum_Hex_Roof_Piece_01_Collider 1",
+			"name": "node_Museum_Hex_Roof_Piece_01_Collider",
 			"mesh": 6
 		},
 		{
 			"name": "node_Museum_Hex_Roof_Piece_01_a (0)",
-			"children": [
-				10
-			]
-		},
-		{
-			"name": "node_Museum_Hex_Roof_Piece_01_a",
 			"mesh": 7,
 			"children": [
-				11
+				7
 			]
 		},
 		{
@@ -1345,17 +1333,11 @@
 		},
 		{
 			"name": "node_Museum_Hex_Roof_Piece_01_a (1)",
-			"children": [
-				10
-			],
-			"rotation": [0, 0.8660247, 0, -0.5000013]
-		},
-		{
-			"name": "node_Museum_Hex_Roof_Piece_01_a",
 			"mesh": 9,
 			"children": [
-				11
-			]
+				7
+			],
+			"rotation": [0, 0.8660247, 0, -0.5000013]
 		},
 		{
 			"name": "node_Museum_Hex_Roof_Piece_01_Collider",
@@ -1363,20 +1345,14 @@
 		},
 		{
 			"name": "node_Museum_Hex_Roof_Piece_01_b (1)",
+			"mesh": 11,
 			"children": [
 				7
 			],
 			"rotation": [0, 1, 0, -2.95043E-06]
 		},
 		{
-			"name": "node_Museum_Hex_Roof_Piece_01_b",
-			"mesh": 11,
-			"children": [
-				8
-			]
-		},
-		{
-			"name": "node_Museum_Hex_Roof_Piece_01_Collider 1",
+			"name": "node_Museum_Hex_Roof_Piece_01_Collider",
 			"mesh": 12
 		}
 	],
