@@ -362,18 +362,6 @@ engine.addSystem(new AutoPlayUnityAudio())
                     //exportStr.AppendFormat(AddEntity, entityName);
                 }
 
-                nft_script nftObject = (tra.gameObject.GetComponent("nft_script") as nft_script);
-                if (nftObject)
-                {
-                    if (resourceRecorder.importedModules.IndexOf("NFTdata") < 0)
-                    {
-                        resourceRecorder.importedModules.Add("NFTdata");
-                    }
-                    exportStr.AppendFormat(SetNFT, entityName, nftObject.smartContract, nftObject.tokenId, nftObject.title, nftObject.autor, nftObject.description);
-                    //exportStr.AppendFormat(AddEntity, entityName);
-                    return;
-                }
-
             }
 
             ProcessShape(tra, entityName, exportStr, resourceRecorder, statistics);
@@ -498,6 +486,19 @@ engine.addSystem(new AutoPlayUnityAudio())
                     statistics.materialCount += statistics.gltfMaterials.Count;
                 }
             }
+            if (exportStr != null)
+            {
+                nft_script nftObject = (tra.gameObject.GetComponent("nft_script") as nft_script);
+                if (nftObject)
+                {
+                    if (resourceRecorder.importedModules.IndexOf("NFTdata") < 0)
+                    {
+                        resourceRecorder.importedModules.Add("NFTdata");
+                    }
+                    exportStr.AppendFormat(SetNFT, entityName, nftObject.smartContract, nftObject.tokenId, nftObject.title, nftObject.autor, nftObject.description);
+                }
+            }
+            
 
             ProcessAudio(tra, entityName, exportStr);
         }
