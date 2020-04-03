@@ -254,7 +254,7 @@
 	"buffers": [
 		{
 			"byteLength": 21696,
-			"uri": "entity4868n.bin"
+			"uri": "entity3184n.bin"
 		}
 	],
 	"bufferViews": [
@@ -569,8 +569,7 @@
 			"children": [
 				5
 			],
-			"translation": [ 0, 0.53, 0],
-			"rotation": [0, 0.4999992, 0, -0.8660259]
+			"rotation": [0, 0.8660244, 0, -0.5000018]
 		},
 		{
 			"name": "node_Museum_Hex_Floor_Ramp_Collider",

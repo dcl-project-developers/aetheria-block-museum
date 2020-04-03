@@ -138,8 +138,8 @@
 			"byteOffset": 2144,
 			"componentType": 5126,
 			"count": 42,
-			"max": [ 0.3412822, 1.000003 ],
-			"min": [ 0, 0.717016 ],
+			"max": [ 1, 1.000003 ],
+			"min": [ 0.6587178, 0.717016 ],
 			"type": "VEC2"
 		},
 		{
@@ -254,7 +254,7 @@
 	"buffers": [
 		{
 			"byteLength": 21696,
-			"uri": "entity4868n.bin"
+			"uri": "entity4028n.bin"
 		}
 	],
 	"bufferViews": [
@@ -436,7 +436,7 @@
 	],
 	"meshes": [
 		{
-			"name": "mesh_Museum_Hex_Floor_Piece_a_2680Museum_Hex_Floor_Piece_a (2)",
+			"name": "mesh_Museum_Hex_Floor_Piece_a_2680Museum_Hex_Floor_Piece_b",
 			"primitives": [
 				{
 					"attributes": {
@@ -474,7 +474,7 @@
 			]
 		},
 		{
-			"name": "mesh_Museum_Hex_Floor_Piece_Collider_a_2688Museum_Hex_Floor_Piece_Collider",
+			"name": "mesh_Museum_Hex_Floor_Piece_Collider_b_2690Museum_Hex_Floor_Piece_Collider",
 			"primitives": [
 				{
 					"attributes": {
@@ -490,7 +490,7 @@
 			]
 		},
 		{
-			"name": "mesh_Museum_Hex_Floor_Piece_a_transparency_2682Museum_Hex_Floor_Piece_a_transparency",
+			"name": "mesh_Museum_Hex_Floor_Piece_b_transparency_2684Museum_Hex_Floor_Piece_b_transparency",
 			"primitives": [
 				{
 					"attributes": {
@@ -506,7 +506,7 @@
 			]
 		},
 		{
-			"name": "mesh_Museum_Hex_Floor_Ramp_4012Museum_Hex_Floor_Ramp_Art",
+			"name": "mesh_Museum_Hex_Floor_Ramp_4012Museum_Hex_Floor_Ramp_Art (1)",
 			"primitives": [
 				{
 					"attributes": {
@@ -546,7 +546,7 @@
 			]
 		},
 		{
-			"name": "node_Museum_Hex_Floor_Piece_a (2)",
+			"name": "node_Museum_Hex_Floor_Piece_b",
 			"mesh": 0,
 			"children": [
 				2,
@@ -560,17 +560,16 @@
 			"mesh": 1
 		},
 		{
-			"name": "node_Museum_Hex_Floor_Piece_a_transparency",
+			"name": "node_Museum_Hex_Floor_Piece_b_transparency",
 			"mesh": 2
 		},
 		{
-			"name": "node_Museum_Hex_Floor_Ramp_Art",
+			"name": "node_Museum_Hex_Floor_Ramp_Art (1)",
 			"mesh": 3,
 			"children": [
 				5
 			],
-			"translation": [ 0, 0.53, 0],
-			"rotation": [0, 0.4999992, 0, -0.8660259]
+			"rotation": [0, 1, 0, -2.652407E-06]
 		},
 		{
 			"name": "node_Museum_Hex_Floor_Ramp_Collider",

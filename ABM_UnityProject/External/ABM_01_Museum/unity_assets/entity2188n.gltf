@@ -254,7 +254,7 @@
 	"buffers": [
 		{
 			"byteLength": 21696,
-			"uri": "entity4868n.bin"
+			"uri": "entity2188n.bin"
 		}
 	],
 	"bufferViews": [
@@ -506,7 +506,7 @@
 			]
 		},
 		{
-			"name": "mesh_Museum_Hex_Floor_Ramp_4012Museum_Hex_Floor_Ramp_Art",
+			"name": "mesh_Museum_Hex_Floor_Ramp_4012Museum_Hex_Floor_Ramp_Art (1)",
 			"primitives": [
 				{
 					"attributes": {
@@ -564,13 +564,13 @@
 			"mesh": 2
 		},
 		{
-			"name": "node_Museum_Hex_Floor_Ramp_Art",
+			"name": "node_Museum_Hex_Floor_Ramp_Art (1)",
 			"mesh": 3,
 			"children": [
 				5
 			],
 			"translation": [ 0, 0.53, 0],
-			"rotation": [0, 0.4999992, 0, -0.8660259]
+			"rotation": [0, 1, 0, -2.354383E-06]
 		},
 		{
 			"name": "node_Museum_Hex_Floor_Ramp_Collider",

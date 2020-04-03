@@ -254,7 +254,7 @@
 	"buffers": [
 		{
 			"byteLength": 21696,
-			"uri": "entity4868n.bin"
+			"uri": "entity2926n.bin"
 		}
 	],
 	"bufferViews": [
@@ -436,7 +436,7 @@
 	],
 	"meshes": [
 		{
-			"name": "mesh_Museum_Hex_Floor_Piece_a_2680Museum_Hex_Floor_Piece_a (2)",
+			"name": "mesh_Museum_Hex_Floor_Piece_a_2680Museum_Hex_Floor_Piece_a",
 			"primitives": [
 				{
 					"attributes": {
@@ -546,7 +546,7 @@
 			]
 		},
 		{
-			"name": "node_Museum_Hex_Floor_Piece_a (2)",
+			"name": "node_Museum_Hex_Floor_Piece_a",
 			"mesh": 0,
 			"children": [
 				2,
@@ -569,8 +569,7 @@
 			"children": [
 				5
 			],
-			"translation": [ 0, 0.53, 0],
-			"rotation": [0, 0.4999992, 0, -0.8660259]
+			"rotation": [0, 0.8660244, 0, -0.5000018]
 		},
 		{
 			"name": "node_Museum_Hex_Floor_Ramp_Collider",
