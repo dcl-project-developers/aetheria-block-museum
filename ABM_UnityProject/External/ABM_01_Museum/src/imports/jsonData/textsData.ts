@@ -73,8 +73,8 @@ export const textDialogs: Dialog[] = [
           fontSize: 30,
           vAlign: "0%",
           bIsComfirmText: true,
-          comfirmTextIndex: 3,
-          cancelTextIndex: 2
+          comfirmTextIndex: 2,
+          cancelTextIndex: 1
         },
         {
           text: {
@@ -131,8 +131,8 @@ export const textDialogs: Dialog[] = [
           fontSize: 30,
           vAlign: "0%",
           bIsComfirmText: true,
-          comfirmTextIndex: 3,
-          cancelTextIndex: 2
+          comfirmTextIndex: 2,
+          cancelTextIndex: 1
         },
         {
           text: {
@@ -175,8 +175,8 @@ export const textDialogs: Dialog[] = [
           fontSize: 30,
           vAlign: "0%",
           bIsComfirmText: true,
-          comfirmTextIndex: 3,
-          cancelTextIndex: 2
+          comfirmTextIndex: 2,
+          cancelTextIndex: 1
         },
         {
           text: {
@@ -241,8 +241,8 @@ export const textDialogs: Dialog[] = [
           fontSize: 30,
           vAlign: "0%",
           bIsComfirmText: true,
-          comfirmTextIndex: 3,
-          cancelTextIndex: 2
+          comfirmTextIndex: 2,
+          cancelTextIndex: 1
         },
         {
           text: {
@@ -291,8 +291,8 @@ export const textDialogs: Dialog[] = [
           fontSize: 30,
           vAlign: "0%",
           bIsComfirmText: true,
-          comfirmTextIndex: 3,
-          cancelTextIndex: 2
+          comfirmTextIndex: 2,
+          cancelTextIndex: 1
         },
         {
           text: {

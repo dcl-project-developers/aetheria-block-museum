@@ -22,7 +22,7 @@ export class HUD_ABM {
   constructor(){
     this.canvas = new UICanvas()
     this.canvas.visible = true
-    this.wgTalkRobot = new WidgetRobot(this.canvas, 0, true, SkipMode.Click)
+    this.wgTalkRobot = new WidgetRobot(this.canvas, 1, true, SkipMode.Click)
     this.wgTalkRobot.faceImage.visible = false
     setWidgetNFT(this.canvas)
     this.wgNFT = getWidgetNFT()
@@ -30,6 +30,7 @@ export class HUD_ABM {
 
   }
   setRobotDialogIndex(newIndex: number){
+    this.wgTalkRobot.dialogIndex = newIndex
     this.wgTalkRobot.dialogData = textDialogs[newIndex]
     this.wgTalkRobot.textData = {
       dialogId: newIndex,
