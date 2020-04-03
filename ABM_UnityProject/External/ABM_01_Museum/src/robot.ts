@@ -11,6 +11,8 @@ export class Robot{
   bInWalkMode: boolean
   dialogIndex: number
   lastPointIndex: number
+  bLookingAt: boolean
+  lookAtTimeout: any
   constructor(entity: IEntity, dialogIndex: number){
     this.entity = entity
     this.dialogIndex = dialogIndex
@@ -63,10 +65,23 @@ export class Robot{
     this.entityTalking.getComponent(GLTFShape).withCollisions = true
     this.entityTalking.getComponent(GLTFShape).visible = true
     this.bInWalkMode = false
+    this.bLookingAt = true
     this.lookAtPlayer()
+    var self = this
+    setTimeout(() => {
+      getHUD().setRobotDialogIndex(this.dialogIndex)
+      getHUD().wgTalkRobot.callback = function(){
+        getHUD().hideAll()
+        setTimeout(() => {
+          self.stopLookAt()
+          self.setMoveMode()
+        }, 500);
+      }
+      getHUD().showWidgetIndex(0, true)
+    }, 50);
   }
   setMoveMode(){
-    getHUD().hideAll()
+
     this.entity.getComponent(FollowPathMoveComponent).targetPointIndex = this.lastPointIndex
     this.entity.getComponent(FollowPathMoveComponent).moveToNextPoint()
 
@@ -79,28 +94,29 @@ export class Robot{
   }
   lookAtPlayer(startVector: Vector3 = null, targetVector: Vector3 = null, alpha: number = 0){
     if (startVector==null) {
-      startVector = this.entity.getComponent(Transform).position.clone()
-      targetVector = directionVectorBetweenTwoPoints(this.entity.getComponent(Transform).position.clone(), camera.position.clone())
+      startVector = Vector3.Forward().rotate(this.entity.getComponent(Transform).rotation)
+      targetVector = directionVectorBetweenTwoPoints(this.entity.getComponent(Transform).position, camera.position)
     }
-    var vector = Vector3.Lerp(startVector.clone(), targetVector.clone(), alpha)
-    this.entity.getComponent(Transform).lookAt(vector.clone())
+    var vector = Vector3.Lerp(startVector, targetVector, alpha)
+    this.entity.getComponent(Transform).rotation = Quaternion.LookRotation(vector)
+    var self = this
     if (alpha<1) {
-      var self = this
-      setTimeout(() => {
+
+      this.lookAtTimeout = setTimeout(() => {
         self.lookAtPlayer(startVector, targetVector, alpha+0.1)
       }, 50);
 
     }
-    else{
-      this.finishLookAtCallback()
+    else if(this.bLookingAt){
+      startVector = targetVector.clone()
+      targetVector =  directionVectorBetweenTwoPoints(this.entity.getComponent(Transform).position, camera.position)
+      this.lookAtTimeout = setTimeout(() => {
+        self.lookAtPlayer(startVector, targetVector, 0)
+      }, 50);
     }
   }
-  finishLookAtCallback(){
-    var self = this
-    getHUD().setRobotDialogIndex(this.dialogIndex)
-    getHUD().wgTalkRobot.callback = function(){
-      self.setMoveMode()
-    }
-    getHUD().showWidgetIndex(0, true)
+  stopLookAt(){
+    this.bLookingAt = false
+    clearTimeout(this.lookAtTimeout)
   }
 }

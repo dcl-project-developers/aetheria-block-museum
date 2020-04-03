@@ -1,6 +1,15 @@
 import { Widget, WidgetTalk, SkipMode, setWidgetNFT, getWidgetNFT, WidgetNFT } from "./imports/index"
 import { textDialogs} from './imports/jsonData/textsData'
 
+class WidgetRobot extends WidgetTalk{
+  show(bVisible: boolean){
+    super.show(bVisible)
+    if (!bVisible) {
+      this.callback()
+    }
+  }
+}
+
 export function getHUD(){
     return hud
 }
@@ -8,12 +17,12 @@ export function getHUD(){
 export class HUD_ABM {
   canvas: UICanvas
   widgets: Widget[]
-  wgTalkRobot: WidgetTalk
+  wgTalkRobot: WidgetRobot
   wgNFT: WidgetNFT
   constructor(){
     this.canvas = new UICanvas()
     this.canvas.visible = true
-    this.wgTalkRobot = new WidgetTalk(this.canvas, 0, true, SkipMode.Click)
+    this.wgTalkRobot = new WidgetRobot(this.canvas, 0, true, SkipMode.Click)
     this.wgTalkRobot.faceImage.visible = false
     setWidgetNFT(this.canvas)
     this.wgNFT = getWidgetNFT()
