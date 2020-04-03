@@ -127,11 +127,13 @@ export class SignPanel {
     ))
     this.pagesTextShape = new TextShape()
     this.pagesTextShape.fontSize = 3
+    this.pagesTextShape.color = Color3.Black()
     this.pagesTextShape.value = (requestInfo.page+1)+" / "+requestInfo.nPages
     this.pagesEntity.addComponent(this.pagesTextShape)
+    this.pagesEntity.getComponent(Transform).translate((new Vector3(0,0,-0.2)))
     this.pagesEntity.getComponent(Transform).rotate(Vector3.Up(), 90)
 
-    this.panelEntity.getComponent(Transform).translate((new Vector3(0,3.9,0.1)))
+    this.panelEntity.getComponent(Transform).translate((new Vector3(0,1.8,-0.2)))
     this.panelEntity.getComponent(Transform).rotate(Vector3.Up(), 90)
 
     const row1 = new Entity()
