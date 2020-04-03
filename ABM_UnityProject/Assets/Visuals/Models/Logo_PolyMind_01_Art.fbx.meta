@@ -1,55 +1,14 @@
 fileFormatVersion: 2
-guid: a06e3e19d156c4043a406aa279ae2e84
+guid: f7f000f2cee12984e8c22c120e32c4fb
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: mesh_bench_01
-    100002: mesh_bench_02
-    100004: mesh_bench_03
-    100006: mesh_bench_04
-    100008: //RootNode
-    100010: Museum_Deco_Bench_01_Collider
-    400000: mesh_bench_01
-    400002: mesh_bench_02
-    400004: mesh_bench_03
-    400006: mesh_bench_04
-    400008: //RootNode
-    400010: Museum_Deco_Bench_01_Collider
-    2100000: holographic
-    2100002: dark_light
-    2100004: dark_floorlighter_tone
-    2100006: dark_floor_mid_tone
-    2100008: dark_floor_base
-    2100010: dark_screen_02
-    2100012: dark_light15
-    2100014: dark_floorlighter_tone9
-    2100016: dark_floor_mid_tone13
-    2100018: dark_floor_base13
-    2100020: dark_screen_07
-    2100022: Emissive_2
-    2100024: Tileset_02
-    2100026: Tileset_03
-    2100028: Trans
-    2100030: Emissive
-    2100032: phong1
-    2300000: mesh_bench_01
-    2300002: mesh_bench_02
-    2300004: mesh_bench_03
-    2300006: mesh_bench_04
-    2300008: //RootNode
-    2300010: Museum_Deco_Bench_01_Collider
-    3300000: mesh_bench_01
-    3300002: mesh_bench_02
-    3300004: mesh_bench_03
-    3300006: mesh_bench_04
-    3300008: //RootNode
-    3300010: Museum_Deco_Bench_01_Collider
-    4300000: mesh_bench_01
-    4300002: mesh_bench_02
-    4300004: mesh_bench_03
-    4300006: mesh_bench_04
-    4300008: Museum_Deco_Bench_01
-    4300010: Museum_Deco_Bench_01_Collider
+    100000: //RootNode
+    400000: //RootNode
+    2100000: logo
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: PolygonalMind_01_Pyramid
   externalObjects: {}
   materials:
     importMaterials: 0
