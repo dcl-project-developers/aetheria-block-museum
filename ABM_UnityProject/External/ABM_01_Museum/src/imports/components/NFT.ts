@@ -25,7 +25,7 @@ export class NFTdata{
     this.smartContract = smartContract
     this.tokenId = tokenId
     if (smartContract!="") {
-      const shapeComponent = new NFTShape('ethereum://'+smartContract+'/'+tokenId,Color3.Blue())
+      const shapeComponent = new NFTShape('ethereum://'+smartContract+'/'+tokenId,Color3.FromInts(122, 150, 165))
       if (entity.hasComponent(GLTFShape) || entity.hasComponent(BoxShape) || entity.hasComponent(SphereShape)) {
         const entityNFT = new Entity()
         entityNFT.addComponent(new Transform())
