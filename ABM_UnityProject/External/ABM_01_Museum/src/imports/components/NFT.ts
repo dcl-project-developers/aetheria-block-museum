@@ -24,8 +24,10 @@ export class NFTdata{
     this.entity = entity
     this.smartContract = smartContract
     this.tokenId = tokenId
-    const shapeComponent = new NFTShape('ethereum://'+smartContract+'/'+tokenId,Color3.Blue())
-    entity.addComponent(shapeComponent)
+    if (smartContract!="") {
+      const shapeComponent = new NFTShape('ethereum://'+smartContract+'/'+tokenId,Color3.Blue())
+      entity.addComponent(shapeComponent)
+    }
     this.title = title
     this.description = description
     this.autor = autor
@@ -183,14 +185,21 @@ export class WidgetNFT extends Widget{
     //textContainer.color = new Color4(0,0,1,0.5)
     textContainer.adaptHeight = false
     textContainer.adaptWidth = false
-
+/*
+    let textScroll = new UIScrollRect(textContainer)
+    textScroll.vAlign = 'center'
+    textScroll.hAlign = 'center'
+    textScroll.width = "100%"
+    textScroll.height = "100%"
+    textScroll.valueY = 10000
+    textScroll.isVertical = true
+*/
     this.textShape = new UIText(textContainer)
     this.textShape.hTextAlign = 'left'
     this.textShape.vTextAlign = 'top'
     this.textShape.height = "95%"
     this.textShape.width = "90%"
     this.textShape.color = Color4.Black()
-    //this.textShape.value = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     this.textShape.fontSize = 14
     this.textShape.textWrapping = true
   }
