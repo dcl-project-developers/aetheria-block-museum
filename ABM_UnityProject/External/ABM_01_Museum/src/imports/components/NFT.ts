@@ -1,8 +1,95 @@
 import utils from "../../../node_modules/decentraland-ecs-utils/index"
+import { Widget } from '../widgets'
 
-var nft_hud: NFT_HUD
+var widgetNFT: WidgetNFT
 
-class NFT_HUD {
+export function getWidgetNFT(){
+    return widgetNFT
+}
+
+export function setWidgetNFT(canvas: UICanvas){
+    widgetNFT = new WidgetNFT(canvas)
+}
+
+@Component('NFTdata')
+export class NFTdata{
+  entity: IEntity
+  smartContract: string
+  tokenId: string
+  title: string
+  description: string
+  autor: string
+  bDebug: boolean
+  constructor(entity: IEntity, smartContract, tokenId, title?: string, autor?: string, description?: string){
+    this.entity = entity
+    this.smartContract = smartContract
+    this.tokenId = tokenId
+    const shapeComponent = new NFTShape('ethereum://'+smartContract+'/'+tokenId,Color3.Blue())
+    entity.addComponent(shapeComponent)
+    this.title = title
+    this.description = description
+    this.autor = autor
+    this.bDebug = true
+    this.createTrigger()
+  }
+  createTrigger(){
+    let triggerBox = new utils.TriggerBoxShape(new Vector3(10,5,10), new Vector3(0,0,0))
+    //create trigger for entity
+    let trigger = new utils.TriggerComponent(
+       triggerBox, //shape
+       0, //layer
+       0, //triggeredByLayer
+       null, //onTriggerEnter
+       null, //onTriggerExit
+       null,  //onCameraEnter
+       null //onCameraExits
+    )
+
+    const triggerEntity = new Entity()
+    triggerEntity.addComponent(new Transform({ position: this.entity.getComponent(Transform).position}))
+    triggerEntity.addComponent(trigger)
+    engine.addEntity(triggerEntity)
+    let self = this
+    this.entity.addComponent(new OnPointerDown(
+        function() {
+          var wg = getWidgetNFT()
+          if (wg.currentNFT!=self) {
+            wg.setNFTdata(self)
+            wg.show(true)
+          }
+          else wg.show(!wg.container.visible)
+        },
+        {
+          button: ActionButton.POINTER,
+          hoverText: "More info",
+          distance: 5
+        }
+    ))
+
+    trigger.onCameraExit = function(){
+      var wg = getWidgetNFT()
+      if (wg.currentNFT==self) {
+        wg.show(false)
+      }
+    }
+
+    if (this.bDebug) {
+      //Debug
+      const debugEntity = new Entity()
+      debugEntity.addComponent(new Transform({ position: this.entity.getComponent(Transform).position.add(triggerBox.position) , scale: triggerBox.size}))
+      debugEntity.addComponent(new BoxShape())
+      debugEntity.getComponent(BoxShape).withCollisions = false
+      const myDebugMaterial = new Material()
+      myDebugMaterial.albedoColor = new Color4(1, 0, 0, 0.2)
+      debugEntity.addComponent(myDebugMaterial)
+      engine.addEntity(debugEntity)
+    }
+    return trigger;
+  }
+}
+
+
+export class WidgetNFT extends Widget{
   canvas: UICanvas
   container: UIContainerRect
   image: UIImage
@@ -10,27 +97,39 @@ class NFT_HUD {
   autorShape: UIText
   textShape: UIText
   currentNFT: NFTdata
-  constructor(){
-    this.canvas = new UICanvas()
-    this.image = new UIImage(this.canvas, new Texture("assets/UI_ArtDescription_01.png"))
-    this.image.visible = false
-    this.image.sourceWidth = 665
-    this.image.sourceHeight = 1000
-    this.image.width = this.image.sourceWidth*0.6+'px'
-    this.image.height = this.image.sourceHeight*0.6+'px'
-    this.image.vAlign = 'top'
-    this.image.hAlign = 'right'
+  constructor(parentUI: Widget | UIShape){
+    var parent: UIShape;
+    if (parentUI as Widget) {
+      parent = (parentUI as Widget).container
+    }
+    else if(parentUI as UIShape){
+      parent = (parentUI as UIShape)
+    }
 
-    this.container = new UIContainerRect(this.canvas)
-    this.container.visible = false
-    this.container.vAlign = 'top'
-    this.container.hAlign = 'right'
-    this.container.width = this.image.sourceWidth*0.55
-    this.container.height = this.image.height
-    this.container.positionX = -20
-    //this.container.color = new Color4(1,1,1,0.5)
-    this.container.adaptHeight = false
-    this.container.adaptWidth = false
+    var image = new UIImage(parent, new Texture("assets/UI_ArtDescription_01.png"))
+    image.visible = false
+    image.sourceWidth = 665
+    image.sourceHeight = 1000
+    image.width = image.sourceWidth*0.6+'px'
+    image.height = image.sourceHeight*0.6+'px'
+    image.vAlign = 'top'
+    image.hAlign = 'right'
+
+    var container = new UIContainerRect(parent)
+    container.visible = false
+    container.vAlign = 'top'
+    container.hAlign = 'right'
+    container.width = image.sourceWidth*0.55
+    container.height = image.height
+    container.positionX = -20
+    //container.color = new Color4(1,1,1,0.5)
+    container.adaptHeight = false
+    container.adaptWidth = false
+
+    super(parentUI, container)
+
+    this.container = container
+    this.image = image
 
     let titleContainer = new UIContainerRect(this.container)
     titleContainer.positionY = "-2.5%"
@@ -94,11 +193,16 @@ class NFT_HUD {
     //this.textShape.value = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     this.textShape.fontSize = 14
     this.textShape.textWrapping = true
-
   }
-  show(bShow: boolean){
-    this.container.visible = bShow
-    this.image.visible = bShow
+  //Muestra u oculta el widget y sus hijos, no muestra los hijos que no tengan bVisibleWithParent==true
+  show(bVisible: boolean){
+    this.container.visible = bVisible
+    this.image.visible = bVisible
+    for (let index = 0; index < this.childrenWidget.length; index++) {
+      if (this.childrenWidget[index].bVisibleWithParent || !bVisible) {
+        this.childrenWidget[index].show(bVisible);
+      }
+    }
   }
   private updateTitle(value: string){
     this.titleShape.value = value
@@ -110,90 +214,5 @@ class NFT_HUD {
     this.updateTitle(newNFT.title)
     this.autorShape.value = newNFT.autor
     this.textShape.value = newNFT.description
-  }
-}
-
-function getNFTHUD(): NFT_HUD{
-  if (!nft_hud) {
-    nft_hud = new NFT_HUD()
-  }
-  return nft_hud
-}
-
-@Component('NFTdata')
-export class NFTdata{
-  entity: IEntity
-  smartContract: string
-  tokenId: string
-  title: string
-  description: string
-  autor: string
-  bDebug: boolean
-  constructor(entity: IEntity, smartContract, tokenId, title?: string, autor?: string, description?: string){
-    this.entity = entity
-    this.smartContract = smartContract
-    this.tokenId = tokenId
-    const shapeComponent = new NFTShape('ethereum://'+smartContract+'/'+tokenId,Color3.Blue())
-    entity.addComponent(shapeComponent)
-    this.title = title
-    this.description = description
-    this.autor = autor
-    this.bDebug = true
-    this.createTrigger()
-    getNFTHUD()
-  }
-  createTrigger(){
-    let triggerBox = new utils.TriggerBoxShape(new Vector3(10,3,10), new Vector3(0,0,0))
-    //create trigger for entity
-    let trigger = new utils.TriggerComponent(
-       triggerBox, //shape
-       0, //layer
-       0, //triggeredByLayer
-       null, //onTriggerEnter
-       null, //onTriggerExit
-       null,  //onCameraEnter
-       null //onCameraExits
-    )
-
-    const triggerEntity = new Entity()
-    triggerEntity.addComponent(new Transform({ position: this.entity.getComponent(Transform).position}))
-    triggerEntity.addComponent(trigger)
-    engine.addEntity(triggerEntity)
-    let self = this
-    this.entity.addComponent(new OnPointerDown(
-        function() {
-          var hud = getNFTHUD()
-          if (hud.currentNFT!=self) {
-            hud.setNFTdata(self)
-            hud.show(true)
-          }
-          else hud.show(!hud.container.visible)
-        },
-        {
-          button: ActionButton.POINTER,
-          hoverText: "More info",
-          distance: 5
-        }
-    ))
-
-    trigger.onCameraExit = function(){
-      var hud = getNFTHUD()
-      if (hud.currentNFT==self) {
-        hud.show(false)
-      }
-    }
-
-    if (this.bDebug) {
-      //Debug
-      const debugEntity = new Entity()
-      debugEntity.addComponent(new Transform({ position: this.entity.getComponent(Transform).position.add(triggerBox.position) , scale: triggerBox.size}))
-      debugEntity.addComponent(new BoxShape())
-      debugEntity.getComponent(BoxShape).withCollisions = false
-      const myDebugMaterial = new Material()
-      myDebugMaterial.albedoColor = new Color4(1, 0, 0, 0.2)
-      debugEntity.addComponent(myDebugMaterial)
-      engine.addEntity(debugEntity)
-    }
-    return trigger;
   }
 }

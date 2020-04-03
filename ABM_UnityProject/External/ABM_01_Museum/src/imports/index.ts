@@ -7,5 +7,5 @@ export { TrapDoorTrigger, trapDoorTriggersInfo, Trigger, triggersInfo } from "./
 export { UpdateMovementComponentsSystem, UpdateToPlayerSystem, UpdateTimerWidgetSystem} from "./systems"
 export { Widget, WidgetTalk, SkipMode, WidgetTextBox, TextProperties, WidgetTextTimmer } from "./widgets"
 export { PlatformComponent } from "./components/platforms"
-export { NFTdata } from "./components/NFT"
-export { Robot } from "./components/robot"
+export { NFTdata, WidgetNFT, getWidgetNFT, setWidgetNFT } from "./components/NFT"
+export { Robot } from "../robot"

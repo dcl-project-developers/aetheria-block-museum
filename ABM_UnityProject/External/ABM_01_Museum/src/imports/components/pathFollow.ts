@@ -56,6 +56,7 @@ export class FollowPathMoveComponent{
   moveComponent: MoveComponent
   bOrientAxisToMovement: Boolean    //Orient the entityToMove rotation to the direction of the movement
   finishBehavior: OnFinishPathBehavior    //The type of behaviour to do when last PathPoint is reached
+  waitTimeout: any
   constructor(movementType: MovementType, targetPoints: PathPoint[], entityToMove: IEntity, globalSpeed: number, bActive: Boolean, finishBehavior: OnFinishPathBehavior, bOrientAxisToMovement: Boolean, callback=function(){}){
       this.bActive = bActive
       this.targetPoints = targetPoints
@@ -84,6 +85,9 @@ export class FollowPathMoveComponent{
   }
   reset(reactivate: boolean = false){
     this.bActive = false
+    if (this.waitTimeout) {
+      clearTimeout(this.waitTimeout)
+    }
     this.moveComponent.deactivate()
     this.targetPointIndex = 0
     if (reactivate) {
@@ -116,7 +120,7 @@ export class FollowPathMoveComponent{
             if (self.targetPoints[self.targetPointIndex].wait) {
               let waitTime = self.targetPoints[self.targetPointIndex].wait*1000
               self.moveComponent.movement.callback = function(){
-                setTimeout(function(){
+                self.waitTimeout = setTimeout(function(){
                   self.moveToNextPoint()
                 }, waitTime);
               }
