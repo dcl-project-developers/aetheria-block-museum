@@ -964,21 +964,7 @@ MonoBehaviour:
   tokenId: 
   title: NO NFT
   autor: 
-  description: "If you have a GPU available and want to start mining, the only realistic
-    solution is to join a mining pool and combine your efforts with that of many other
-    miners in your situation. You then share the revenue based on your contribution
-    to the pool hashrate.  This was not necessarily the case in the early days of
-    Ethereum. There are multiple instances of miners who have only ever produced a
-    single block: suggesting they were solo mining with their own GPU, before perhaps
-    either ceasing to mine or moving onto a pool due to hashrate increases.  The CryptoArte
-    in front of you is unique, because the miner shape you observe in its center is
-    ever only visible once in the entire collection. This miner is a \u201Cone-time
-    miner\u201D, and in fact is the oldest of such. The account (see oneTimeMiner.aetheriablockmuseum.eth)
-    mined the block #762. It was an empty block (no transactions), as were most blocks
-    that early in the life of the blockchain. The solo-miner received 5.1625 ETH as
-    a reward for mining the block, and 3.75 reward for including 1 uncle. There are
-    no external or internal transactions associated with this account whatsoever;
-    the 8.9 ETH is still sitting in the account to this day."
+  description: uisdgufudsapipuidhoaisHDPOASHDPOS
 --- !u!114 &2070588759
 MonoBehaviour:
   m_ObjectHideFlags: 0

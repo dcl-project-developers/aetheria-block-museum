@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - signbook
+  - signpannel
+  - signpannel_board
+  - signpannel_back
+  - signpannel_next
+  - signpannel_pages
   layers:
   - Default
   - TransparentFX
