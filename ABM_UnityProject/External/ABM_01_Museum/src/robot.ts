@@ -55,9 +55,11 @@ export class Robot{
     ))*/
   }
   setTalkMode(){
-    this.entity.getComponent(FollowPathMoveComponent).moveComponent.deactivate()
-    this.lastPointIndex = this.entity.getComponent(FollowPathMoveComponent).targetPointIndex-1
-    this.entity.getComponent(FollowPathMoveComponent).reset()
+    if (this.entity.hasComponent(FollowPathMoveComponent)) {
+      this.entity.getComponent(FollowPathMoveComponent).moveComponent.deactivate()
+      this.lastPointIndex = this.entity.getComponent(FollowPathMoveComponent).targetPointIndex-1
+      this.entity.getComponent(FollowPathMoveComponent).reset()
+    }
 
     this.entityWalking.getComponent(GLTFShape).withCollisions = false
     this.entityWalking.getComponent(GLTFShape).visible = false
@@ -81,10 +83,10 @@ export class Robot{
     }, 50);
   }
   setMoveMode(){
-
-    this.entity.getComponent(FollowPathMoveComponent).targetPointIndex = this.lastPointIndex
-    this.entity.getComponent(FollowPathMoveComponent).moveToNextPoint()
-
+    if (this.entity.hasComponent(FollowPathMoveComponent)) {
+      this.entity.getComponent(FollowPathMoveComponent).targetPointIndex = this.lastPointIndex
+      this.entity.getComponent(FollowPathMoveComponent).moveToNextPoint()
+    }
     this.entityTalking.getComponent(GLTFShape).withCollisions = false
     this.entityTalking.getComponent(GLTFShape).visible = false
 
