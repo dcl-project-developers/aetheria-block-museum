@@ -40,7 +40,7 @@ export class NFTdata{
     this.title = title
     this.description = description
     this.autor = autor
-    this.bDebug = true
+    this.bDebug = false
     this.createTrigger()
   }
   createTrigger(){
@@ -107,6 +107,7 @@ export class WidgetNFT extends Widget{
   titleShape: UIText
   autorShape: UIText
   textShape: UIText
+  textScroll: UIScrollRect
   currentNFT: NFTdata
   constructor(parentUI: Widget | UIShape){
     var parent: UIShape;
@@ -194,20 +195,19 @@ export class WidgetNFT extends Widget{
     //textContainer.color = new Color4(0,0,1,0.5)
     textContainer.adaptHeight = false
     textContainer.adaptWidth = false
-/*
-    let textScroll = new UIScrollRect(textContainer)
-    textScroll.vAlign = 'center'
-    textScroll.hAlign = 'center'
-    textScroll.width = "100%"
-    textScroll.height = "100%"
-    textScroll.valueY = 10000
-    textScroll.isVertical = true
-*/
-    this.textShape = new UIText(textContainer)
+
+    this.textScroll = new UIScrollRect(textContainer)
+    this.textScroll.vAlign = 'center'
+    this.textScroll.hAlign = 'center'
+    this.textScroll.width = "95%"
+    this.textScroll.height = "90%"
+    this.textScroll.isVertical = true
+
+    this.textShape = new UIText(this.textScroll)
     this.textShape.hTextAlign = 'left'
     this.textShape.vTextAlign = 'top'
-    this.textShape.height = "95%"
-    this.textShape.width = "90%"
+    this.textShape.height = "100%"
+    this.textShape.width = "95%"
     this.textShape.color = Color4.Black()
     this.textShape.fontSize = 14
     this.textShape.textWrapping = true
@@ -232,5 +232,14 @@ export class WidgetNFT extends Widget{
     this.updateTitle(newNFT.title)
     this.autorShape.value = newNFT.autor
     this.textShape.value = newNFT.description
+
+    if (this.textShape.value.length>900) {
+      this.textShape.adaptHeight = true
+      this.textScroll.isVertical = true
+    }
+    else{
+      this.textShape.adaptHeight = false
+      this.textScroll.isVertical = false
+    }
   }
 }
